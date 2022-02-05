@@ -1,0 +1,9 @@
+p.counter-number {
+    font-size: 32pt;
+    font-weight: bold;
+    display: inline;
+}
+
+.counter-button {
+    margin-bottom: 20px;
+}
