@@ -1,3 +1,11 @@
+body {
+    margin: 2em;
+}
+
+div.themed-grid-col {
+    margin-left: 0.5em;
+}
+
 p.counter-number {
     font-size: 32pt;
     font-weight: bold;
