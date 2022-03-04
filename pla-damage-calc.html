@@ -32,13 +32,34 @@
                     <input type="text" id="level" name="level"><br>
 
                     <label for="base-power">Move's Base Power</label><br>
-                    <input type="text" id="base-power" name="base-power"><br>
+                    <input type="text" id="base-power" name="base-power"><br><br>
+                    
+                    <input type="radio" id="bad-eff-25" name="effectiveness" value="0.4">
+                    <label for="bad-eff-25">Double Not Very Effective</label><br>
+                    <input type="radio" id="bad-eff-50" name="effectiveness" value="0.5">
+                    <label for="bad-eff-50">Not Very Effective</label><br>
+                    <input type="radio" id="eff" name="effectiveness" value="1.0">
+                    <label for="eff">Normally Effective</label><br>
+                    <input type="radio" id="very-eff-2" name="effectiveness" value="2.0">
+                    <label for="very-eff-2">Super Effective</label><br>
+                    <input type="radio" id="very-eff-4" name="effectiveness" value="2.5">
+                    <label for="very-eff-4">Double Super Effective</label><br><br>
+
+                    <input type="checkbox" id="stab" name="stab" value="stab">
+                    <label for="stab">STAB</label><br>
+                    <input type="checkbox" id="attack-boost" name="attack-boost" value="attack-boost">
+                    <label for="attack-boost">+1 Attack</label><br>
+                    <input type="checkbox" id="crit" name="crit" value="crit">
+                    <label for="crit">Critical Hit</label><br>
                 </div>
                 <div class="col-lg-5 themed-grid-col">
                     <h3>Defender</h3>
 
                     <label for="def">Pokémon's Defense Stat</label><br>
-                    <input type="text" id="def" name="def"><br>
+                    <input type="text" id="def" name="def"><br><br>
+
+                    <input type="checkbox" id="def-boost" name="def-boost" value="def-boost">
+                    <label for="def-boost">+1 Defense</label><br>
                 </div>
             </div>
             <br>
