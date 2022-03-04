@@ -12,6 +12,11 @@ p.counter-number {
     display: inline;
 }
 
+p.calc-result {
+    font-weight: bold;
+    display: inline;
+}
+
 .counter-button {
     margin-bottom: 20px;
 }
