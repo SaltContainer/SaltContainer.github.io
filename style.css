@@ -12,6 +12,12 @@ p.counter-number {
     display: inline;
 }
 
+p.calc-result-large {
+    font-size: 24pt;
+    font-weight: bold;
+    display: inline;
+}
+
 p.calc-result {
     font-weight: bold;
     display: inline;

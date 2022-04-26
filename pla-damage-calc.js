@@ -58,14 +58,27 @@ function doCalc() {
     var defenseBoost = 1.0;
     defenseBoost *= document.getElementById("def-boost").checked ? 2/3 : 1.0;
 
-    // Final Calc with range
+    // Final Calc with ranges
     var damageMax = baseMultiplier * basePower * eff * stab * attackBoost * crit * defenseBoost;
-    var damageMin = damageMax * 0.85;
+    var ranges = [];
+    for (var i=0; i<16; i++)
+    {
+        ranges[i] = Math.floor(damageMax * (i + 85) / 100);
+    }
+
+    var killingRanges = 0;
+    for (var i=0; i<16; i++)
+    {
+        if (ranges[i] >= hp) killingRanges++;
+    }
 
     // Change labels
     var atkVsDef = document.getElementById("atk-vs-def");
     atkVsDef.textContent = "(" + attack + " Attack vs. " + defense + " Defense @ " + hp + " HP, before multipliers)";
 
+    var textRanges = document.getElementById("ranges");
+    textRanges.textContent = "[" + ranges.join(", ") + "]";
+
     var result = document.getElementById("calc-result");
-    result.textContent = damageMin + " - " + damageMax;
+    result.textContent = ranges[0] + " - " + ranges[15] + " (" + killingRanges + "/16 to OHKO)";
 }
