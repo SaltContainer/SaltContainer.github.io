@@ -16,7 +16,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         <script src="pla-damage-calc.js"></script>
 
-        <h1>Pokémon Legends: Arceus Quick Damage Calculator</h1>
+        <h1>Pokémon Legends: Arceus Damage Calculator</h1>
 
         <br>
 
@@ -25,8 +25,18 @@
                 <div class="col-lg-5 themed-grid-col">
                     <h3>Attacker</h3>
 
-                    <label for="attack">Pokémon's Attack Stat</label><br>
-                    <input type="text" id="attack" name="attack"><br>
+                    <label for="attack">Pokémon's Base Attack Stat</label><br>
+                    <input type="text" id="attack" name="attack"><br><br>
+
+                    <input type="radio" id="nature-minus" name="nature" value="1.1">
+                    <label for="nature-minus">- Nature</label><br>
+                    <input type="radio" id="nature-neutral" name="nature" value="1">
+                    <label for="nature-neutral">Neutral Nature</label><br>
+                    <input type="radio" id="nature-plus" name="nature" value="0.9">
+                    <label for="nature-plus">+ Nature</label><br><br>
+
+                    <label for="e-level">Effort Level</label><br>
+                    <input type="text" id="e-level" name="e-level"><br>
 
                     <label for="level">Pokémon's Level</label><br>
                     <input type="text" id="level" name="level"><br>
@@ -55,8 +65,21 @@
                 <div class="col-lg-5 themed-grid-col">
                     <h3>Defender</h3>
 
-                    <label for="def">Pokémon's Defense Stat</label><br>
+                    <label for="def">Pokémon's Base Defense Stat</label><br>
                     <input type="text" id="def" name="def"><br><br>
+
+                    <input type="radio" id="def-nature-minus" name="def-nature" value="1.1">
+                    <label for="def-nature-minus">- Nature</label><br>
+                    <input type="radio" id="def-nature-neutral" name="def-nature" value="1">
+                    <label for="def-nature-neutral">Neutral Nature</label><br>
+                    <input type="radio" id="def-nature-plus" name="def-nature" value="0.9">
+                    <label for="def-nature-plus">+ Nature</label><br><br>
+
+                    <label for="def-e-level">Effort Level</label><br>
+                    <input type="text" id="def-e-level" name="def-e-level"><br>
+
+                    <label for="def-level">Pokémon's Level</label><br>
+                    <input type="text" id="def-level" name="def-level"><br><br>
 
                     <input type="checkbox" id="def-boost" name="def-boost" value="def-boost">
                     <label for="def-boost">+1 Defense</label><br>
@@ -66,9 +89,12 @@
             <br>
             <div class="row">
                 <div class="col-lg-10 themed-grid-col">
-                    <p class="calc-result" id="calc-result">No result.</p>
+                    <p class="calc-result" id="calc-result">No result.</p><br>
+                    <p class="calc-result" id="atk-vs-def"></p>
                     <br>
                     <a onclick="doCalc()" class="btn btn-outline-secondary" type="button" id="button-addon2">Calculate!</a>
+                    <br>
+                    <p>The results are kept with decimals as it is unclear how they are rounded by the game. Keep this in mind when using this calculator.</p>
                 </div>
             </div>
         </div>
