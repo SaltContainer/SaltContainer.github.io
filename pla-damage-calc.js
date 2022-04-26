@@ -1,6 +1,7 @@
 var elm = [0, 2, 3, 4, 7, 8, 9, 14, 15, 16, 25];
 
 function doCalc() {
+    // Attack Stuff
     var baseAttack = parseInt(document.getElementById("attack").value);
     var el = parseInt(document.getElementById("e-level").value);
     var level = parseInt(document.getElementById("level").value);
@@ -11,6 +12,7 @@ function doCalc() {
     nature *= document.getElementById("nature-neutral").checked ? 1.0 : 1.0;
     nature *= document.getElementById("nature-plus").checked ? 1.1 : 1.0;
 
+    // Defense Stuff
     var baseDefense = parseInt(document.getElementById("def").value);
     var defEl = parseInt(document.getElementById("def-e-level").value);
     var defLevel = parseInt(document.getElementById("def-level").value);
@@ -20,12 +22,21 @@ function doCalc() {
     defNature *= document.getElementById("def-nature-neutral").checked ? 1.0 : 1.0;
     defNature *= document.getElementById("def-nature-plus").checked ? 1.1 : 1.0;
 
+    // HP Stuff
+    var baseHP = parseInt(document.getElementById("hp").value);
+    var hpEl = parseInt(document.getElementById("hp-e-level").value);
+
+    // Stat Calc
     var elb = Math.round((Math.sqrt(baseAttack) * elm[el > 10 || el < 0 ? 10 : el] + level) / 2.5);
     var attack = Math.floor(Math.floor((level/50 + 1) * baseAttack / 1.5) * nature) + elb
 
     var defElb = Math.round((Math.sqrt(baseDefense) * elm[defEl > 10 || defEl < 0 ? 10 : defEl] + defLevel) / 2.5);
     var defense = Math.floor(Math.floor((defLevel/50 + 1) * baseDefense / 1.5) * defNature) + defElb
 
+    var hpElb = Math.round((Math.sqrt(baseHP) * elm[hpEl > 10 || hpEl < 0 ? 10 : hpEl] + defLevel) / 2.5);
+    var hp = Math.floor((defLevel/100 + 1) * baseHP + defLevel) + hpElb;
+
+    // Damage Calc
     var baseMultiplier = (attack * 0.2 + level * 3 + 20) / (defense + 50);
 
     var eff = 1.0;
@@ -47,11 +58,13 @@ function doCalc() {
     var defenseBoost = 1.0;
     defenseBoost *= document.getElementById("def-boost").checked ? 2/3 : 1.0;
 
+    // Final Calc with range
     var damageMax = baseMultiplier * basePower * eff * stab * attackBoost * crit * defenseBoost;
     var damageMin = damageMax * 0.85;
 
+    // Change labels
     var atkVsDef = document.getElementById("atk-vs-def");
-    atkVsDef.textContent = "(" + attack + " Attack vs. " + defense + " Defense, before multipliers)";
+    atkVsDef.textContent = "(" + attack + " Attack vs. " + defense + " Defense @ " + hp + " HP, before multipliers)";
 
     var result = document.getElementById("calc-result");
     result.textContent = damageMin + " - " + damageMax;

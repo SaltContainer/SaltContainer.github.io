@@ -35,7 +35,7 @@
                     <input type="radio" id="nature-plus" name="nature" value="0.9">
                     <label for="nature-plus">+ Nature</label><br><br>
 
-                    <label for="e-level">Effort Level</label><br>
+                    <label for="e-level">Pokémon's Attack Effort Level</label><br>
                     <input type="text" id="e-level" name="e-level"><br>
 
                     <label for="level">Pokémon's Level</label><br>
@@ -65,6 +65,9 @@
                 <div class="col-lg-5 themed-grid-col">
                     <h3>Defender</h3>
 
+                    <label for="hp">Pokémon's Base HP Stat</label><br>
+                    <input type="text" id="hp" name="hp"><br><br>
+
                     <label for="def">Pokémon's Base Defense Stat</label><br>
                     <input type="text" id="def" name="def"><br><br>
 
@@ -75,7 +78,10 @@
                     <input type="radio" id="def-nature-plus" name="def-nature" value="0.9">
                     <label for="def-nature-plus">+ Nature</label><br><br>
 
-                    <label for="def-e-level">Effort Level</label><br>
+                    <label for="hp-e-level">Pokémon's HP Effort Level</label><br>
+                    <input type="text" id="hp-e-level" name="hp-e-level"><br>
+
+                    <label for="def-e-level">Pokémon's Defense Effort Level</label><br>
                     <input type="text" id="def-e-level" name="def-e-level"><br>
 
                     <label for="def-level">Pokémon's Level</label><br>
@@ -90,11 +96,11 @@
             <div class="row">
                 <div class="col-lg-10 themed-grid-col">
                     <p class="calc-result" id="calc-result">No result.</p><br>
-                    <p class="calc-result" id="atk-vs-def"></p>
+                    <p class="calc-result" id="atk-vs-def">(0 Attack vs. 0 Defense @ 0 HP, before multipliers)</p>
                     <br>
                     <a onclick="doCalc()" class="btn btn-outline-secondary" type="button" id="button-addon2">Calculate!</a>
                     <br>
-                    <p>The results are kept with decimals as it is unclear how they are rounded by the game. Keep this in mind when using this calculator.</p>
+                    <p>The final results are kept with decimals as it is unclear how they are rounded by the game. Keep this in mind when using this calculator.</p>
                 </div>
             </div>
         </div>
