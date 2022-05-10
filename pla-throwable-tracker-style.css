@@ -4,30 +4,46 @@
     padding: 10px;
     resize: both;
     overflow: auto;
-    margin-bottom:5px;
-    counter-reset: ucount;
+    margin-bottom: 5px;
 }
 
 #list {
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    resize: horizontal;
+    overflow: auto;
 }
 
-#list input[type=checkbox] {
+#list>div.clickable-item>input[type=checkbox] {
     display: none;
 }
 
-#list label {
+#list label:not(.removed) {
     display: block;
+    width: 150px;
+    height: 64px;
     transition: box-shadow .250s ease-in;
 }
 
-input:checked~label {
-    counter-increment: ucount;
+#list label.removed {
+    display: block;
+    width: 42px;
+    height: 42px;
+    transition: box-shadow .250s ease-in;
+}
+
+#list label.removed>div.item-name {
+    display: none;
+}
+
+#list>div.clickable-item>input:checked~label {
     box-shadow: inset 0 0 0 100px rgb(255, 51, 51);
     font-weight: bold;
 }
 
-#list>div {
+#list>div.clickable-item {
     cursor: default;
     -moz-user-select: none;
     -webkit-user-select: none;
@@ -39,8 +55,4 @@ input:checked~label {
 #count {
     font-size: 2em;
     grid-column: -2;
-}
-
-#list>.removed {
-    display: none;
 }

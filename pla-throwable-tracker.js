@@ -12,8 +12,23 @@ window.addEventListener("load", () => {
 });
 
 window.addEventListener("click", () => {
-    let count = document.querySelectorAll('input[type="checkbox"]:checked').length;
-    let counter = document.getElementById("x");
+    list = document.getElementById("list");
+    count = list.querySelectorAll('input[type="checkbox"]:checked').length;
+    counter = document.getElementById("x");
 
     counter.textContent = count;
 });
+
+function togglecompact() {
+    check = document.getElementById("compact-option");
+    var labels = document.getElementsByClassName("clickable-label");
+    if (check.checked) {
+        for (var i=0; i<labels.length; i++) {
+            labels[i].classList.add("removed");
+        }
+    } else {
+        for (var i=0; i<labels.length; i++) {
+            labels[i].classList.remove("removed");
+        }
+    }
+}
