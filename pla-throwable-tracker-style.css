@@ -1,0 +1,46 @@
+#content {
+    width: 360px;
+    height: 260px;
+    padding: 10px;
+    resize: both;
+    overflow: auto;
+    margin-bottom:5px;
+    counter-reset: ucount;
+}
+
+#list {
+    text-align: center;
+}
+
+#list input[type=checkbox] {
+    display: none;
+}
+
+#list label {
+    display: block;
+    transition: box-shadow .250s ease-in;
+}
+
+input:checked~label {
+    counter-increment: ucount;
+    box-shadow: inset 0 0 0 100px rgb(255, 51, 51);
+    font-weight: bold;
+}
+
+#list>div {
+    cursor: default;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    grid-template-rows: 1fr auto;
+}
+
+#count {
+    font-size: 2em;
+    grid-column: -2;
+}
+
+#list>.removed {
+    display: none;
+}

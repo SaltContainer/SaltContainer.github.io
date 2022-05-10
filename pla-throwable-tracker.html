@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="pla-throwable-tracker-style.css">
+
+        <title>PL:A Throwable Tracker</title>
+    </head>
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="pla-throwable-tracker.js"></script>
+
+        <h1>Pokémon Legends: Arceus Throwable Item Tracker</h1>
+
+        <div class="col-lg-12 themed-grid-col" id="list">
+            <div class="row">
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="pokeball">
+                    <label for="pokeball">
+                        <img src="pla-throwable-tracker/pokeballlegends.png" alt="Poké Ball">
+                        <div class="item-name">Poké Ball</div>
+                    </label>
+                </div>
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="greatball">
+                    <label for="greatball">
+                        <img src="pla-throwable-tracker/greatballlegends.png" alt="Great Ball">
+                        <div class="item-name">Great Ball</div>
+                    </label>
+                </div>
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="ultraball">
+                    <label for="ultraball">
+                        <img src="pla-throwable-tracker/ultraballlegends.png" alt="Ultra Ball">
+                        <div class="item-name">Ultra Ball</div>
+                    </label>
+                </div>
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="heavyball">
+                    <label for="heavyball">
+                        <img src="pla-throwable-tracker/heavyballlegends.png" alt="Heavy Ball">
+                        <div class="item-name">Heavy Ball</div>
+                    </label>
+                </div>
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="leadenball">
+                    <label for="leadenball">
+                        <img src="pla-throwable-tracker/leadenball.png" alt="Leaden Ball">
+                        <div class="item-name">Leaden Ball</div>
+                    </label>
+                </div>
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="gigatonball">
+                    <label for="gigatonball">
+                        <img src="pla-throwable-tracker/gigatonball.png" alt="Gigaton Ball">
+                        <div class="item-name">Gigaton Ball</div>
+                    </label>
+                </div>
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="featherball">
+                    <label for="featherball">
+                        <img src="pla-throwable-tracker/featherball.png" alt="Feather Ball">
+                        <div class="item-name">Feather Ball</div>
+                    </label>
+                </div>
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="wingball">
+                    <label for="wingball">
+                        <img src="pla-throwable-tracker/wingball.png" alt="Wing Ball">
+                        <div class="item-name">Wing Ball</div>
+                    </label>
+                </div>
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="jetball">
+                    <label for="jetball">
+                        <img src="pla-throwable-tracker/jetball.png" alt="Jet Ball">
+                        <div class="item-name">Jet Ball</div>
+                    </label>
+                </div>
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="spoiledapricorn">
+                    <label for="spoiledapricorn">
+                        <img src="pla-throwable-tracker/spoiledapricorn.png" alt="Spoiled Apricorn">
+                        <div class="item-name">Spoiled Apricorn</div>
+                    </label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="ballofmud">
+                    <label for="ballofmud">
+                        <img src="pla-throwable-tracker/ballofmud.png" alt="Ball of Mud">
+                        <div class="item-name">Ball of Mud</div>
+                    </label>
+                </div>
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="scatterbang">
+                    <label for="scatterbang">
+                        <img src="pla-throwable-tracker/scatterbang.png" alt="Scatter Bang">
+                        <div class="item-name">Scatter Bang</div>
+                    </label>
+                </div>
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="smokebomb">
+                    <label for="smokebomb">
+                        <img src="pla-throwable-tracker/smokebomb.png" alt="Smoke Bomb">
+                        <div class="item-name">Smoke Bomb</div>
+                    </label>
+                </div>
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="snowball">
+                    <label for="snowball">
+                        <img src="pla-throwable-tracker/snowballlegends.png" alt="Snowball">
+                        <div class="item-name">Snowball</div>
+                    </label>
+                </div>
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="stickyglob">
+                    <label for="stickyglob">
+                        <img src="pla-throwable-tracker/stickyglob.png" alt="Sticky Glob">
+                        <div class="item-name">Sticky Glob</div>
+                    </label>
+                </div>
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="aguavberry">
+                    <label for="aguavberry">
+                        <img src="pla-throwable-tracker/aguavberry.png" alt="Aguav Berry">
+                        <div class="item-name">Aguav Berry</div>
+                    </label>
+                </div>
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="aspearberry">
+                    <label for="aspearberry">
+                        <img src="pla-throwable-tracker/aspearberry.png" alt="Aspear Berry">
+                        <div class="item-name">Aspear Berry</div>
+                    </label>
+                </div>
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="cheriberry">
+                    <label for="cheriberry">
+                        <img src="pla-throwable-tracker/cheriberry.png" alt="Cheri Berry">
+                        <div class="item-name">Cheri Berry</div>
+                    </label>
+                </div>
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="chestoberry">
+                    <label for="chestoberry">
+                        <img src="pla-throwable-tracker/chestoberry.png" alt="Chesto Berry">
+                        <div class="item-name">Chesto Berry</div>
+                    </label>
+                </div>
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="figyberry">
+                    <label for="figyberry">
+                        <img src="pla-throwable-tracker/figyberry.png" alt="Figy Berry">
+                        <div class="item-name">Figy Berry</div>
+                    </label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="hopoberry">
+                    <label for="hopoberry">
+                        <img src="pla-throwable-tracker/hopoberry.png" alt="Hopo Berry">
+                        <div class="item-name">Hopo Berry</div>
+                    </label>
+                </div>
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="iapapaberry">
+                    <label for="iapapaberry">
+                        <img src="pla-throwable-tracker/iapapaberry.png" alt="Iapapa Berry">
+                        <div class="item-name">Iapapa Berry</div>
+                    </label>
+                </div>
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="leppaberry">
+                    <label for="leppaberry">
+                        <img src="pla-throwable-tracker/leppaberry.png" alt="Leppa Berry">
+                        <div class="item-name">Leppa Berry</div>
+                    </label>
+                </div>
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="lumberry">
+                    <label for="lumberry">
+                        <img src="pla-throwable-tracker/lumberry.png" alt="Lum Berry">
+                        <div class="item-name">Lum Berry</div>
+                    </label>
+                </div>
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="magoberry">
+                    <label for="magoberry">
+                        <img src="pla-throwable-tracker/magoberry.png" alt="Mago Berry">
+                        <div class="item-name">Mago Berry</div>
+                    </label>
+                </div>
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="nanabberry">
+                    <label for="nanabberry">
+                        <img src="pla-throwable-tracker/nanabberry.png" alt="Nanab Berry">
+                        <div class="item-name">Nanab Berry</div>
+                    </label>
+                </div>
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="oranberry">
+                    <label for="oranberry">
+                        <img src="pla-throwable-tracker/oranberry.png" alt="Oran Berry">
+                        <div class="item-name">Oran Berry</div>
+                    </label>
+                </div>
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="pechaberry">
+                    <label for="pechaberry">
+                        <img src="pla-throwable-tracker/pechaberry.png" alt="Pecha Berry">
+                        <div class="item-name">Pecha Berry</div>
+                    </label>
+                </div>
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="pinapberry">
+                    <label for="pinapberry">
+                        <img src="pla-throwable-tracker/pinapberry.png" alt="Pinap Berry">
+                        <div class="item-name">Pinap Berry</div>
+                    </label>
+                </div>
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="rawstberry">
+                    <label for="rawstberry">
+                        <img src="pla-throwable-tracker/rawstberry.png" alt="Rawst Berry">
+                        <div class="item-name">Rawst Berry</div>
+                    </label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="razzberry">
+                    <label for="razzberry">
+                        <img src="pla-throwable-tracker/razzberry.png" alt="Razz Berry">
+                        <div class="item-name">Razz Berry</div>
+                    </label>
+                </div>
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="sitrusberry">
+                    <label for="sitrusberry">
+                        <img src="pla-throwable-tracker/sitrusberry.png" alt="Sitrus Berry">
+                        <div class="item-name">Sitrus Berry</div>
+                    </label>
+                </div>
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="wikiberry">
+                    <label for="wikiberry">
+                        <img src="pla-throwable-tracker/wikiberry.png" alt="Wiki Berry">
+                        <div class="item-name">Wiki Berry</div>
+                    </label>
+                </div>
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="springymushroom">
+                    <label for="springymushroom">
+                        <img src="pla-throwable-tracker/springymushroom.png" alt="Springy Mushroom">
+                        <div class="item-name">Springy Mushroom</div>
+                    </label>
+                </div>
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="dazzlinghoney">
+                    <label for="dazzlinghoney">
+                        <img src="pla-throwable-tracker/dazzlinghoney.png" alt="Dazzling Honey">
+                        <div class="item-name">Dazzling Honey</div>
+                    </label>
+                </div>
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="heartygrains">
+                    <label for="heartygrains">
+                        <img src="pla-throwable-tracker/heartygrains.png" alt="Hearty Grains">
+                        <div class="item-name">Hearty Grains</div>
+                    </label>
+                </div>
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="plumpbeans">
+                    <label for="plumpbeans">
+                        <img src="pla-throwable-tracker/plumpbeans.png" alt="Plump Beans">
+                        <div class="item-name">Plump Beans</div>
+                    </label>
+                </div>
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="crunchysalt">
+                    <label for="crunchysalt">
+                        <img src="pla-throwable-tracker/crunchysalt.png" alt="Crunchy Salt">
+                        <div class="item-name">Crunchy Salt</div>
+                    </label>
+                </div>
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="mushroomcake">
+                    <label for="mushroomcake">
+                        <img src="pla-throwable-tracker/mushroomcake.png" alt="Mushroom Cake">
+                        <div class="item-name">Mushroom Cake</div>
+                    </label>
+                </div>
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="honeycake">
+                    <label for="honeycake">
+                        <img src="pla-throwable-tracker/honeycake.png" alt="Honey Cake">
+                        <div class="item-name">Honey Cake</div>
+                    </label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="graincake">
+                    <label for="graincake">
+                        <img src="pla-throwable-tracker/graincake.png" alt="Grain Cake">
+                        <div class="item-name">Grain Cake</div>
+                    </label>
+                </div>
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="beancake">
+                    <label for="beancake">
+                        <img src="pla-throwable-tracker/beancake.png" alt="Bean Cake">
+                        <div class="item-name">Bean Cake</div>
+                    </label>
+                </div>
+                <div class="col-1 themed-grid-col">
+                    <input type="checkbox" id="saltcake">
+                    <label for="saltcake">
+                        <img src="pla-throwable-tracker/saltcake.png" alt="Salt Cake">
+                        <div class="item-name">Salt Cake</div>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="grid-separator" id="sepLine">
+        <div id="count">Total: <span id="x">0</span></div>
+
+        <div class="col-lg-10 themed-grid-col">
+            <p>This tracker page is based on a tracker for Plate Bingo made by Demki available here: <a href="https://demki.github.io/dex/plateDex.html">Plate Bingo</a></p>
+        </div>
+    </body>
+</html>
