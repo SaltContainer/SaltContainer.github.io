@@ -1,0 +1,26 @@
+[
+    {
+        "id": "acacia_button",
+        "name": "Acacia Button",
+        "img": "minecraft-rando-tracker/ender_pearl.png",
+        "contents": []
+    },
+    {
+        "id": "acacia_door",
+        "name": "Acacia Door",
+        "img": "minecraft-rando-tracker/ender_pearl.png",
+        "contents": []
+    },
+    {
+        "id": "acacia_fence",
+        "name": "Acacia Fence",
+        "img": "minecraft-rando-tracker/ender_pearl.png",
+        "contents": []
+    },
+    {
+        "id": "acacia_fence_gate",
+        "name": "Acacia Fence Gate",
+        "img": "minecraft-rando-tracker/ender_pearl.png",
+        "contents": []
+    }
+]

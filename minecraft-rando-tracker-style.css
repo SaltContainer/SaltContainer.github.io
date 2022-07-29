@@ -1,0 +1,7 @@
+table.table {
+    table-layout: fixed;
+}
+
+input#loot-search {
+    width: inherit;
+}
