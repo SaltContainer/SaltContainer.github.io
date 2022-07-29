@@ -40,13 +40,14 @@ function initialData(data) {
         var tr = document.createElement("tr");
         
         var td1 = document.createElement("td");
-        td1.textContent = " " + loot.name;
-        
         var img = document.createElement("img");
         img.src = loot.img;
         img.alt = loot.name;
         img.className = "loot-icon";
         td1.appendChild(img);
+
+        var text = document.createTextNode(" " + loot.name);
+        td1.appendChild(text);
 
         var td2 = document.createElement("td");
 
