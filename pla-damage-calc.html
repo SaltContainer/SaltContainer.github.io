@@ -47,7 +47,12 @@
                     <input type="text" id="e-level" name="e-level"><br>
 
                     <label for="level">Pokémon's Level</label><br>
-                    <input type="text" id="level" name="level"><br>
+                    <input type="text" id="level" name="level"><br><br>
+
+                    <input type="checkbox" id="slow-start" name="slow-start" value="slow-start">
+                    <label for="slow-start">Slow Start</label><br>
+                    <input type="checkbox" id="wild-might" name="wild-might" value="wild-might">
+                    <label for="wild-might">Wild/Terrible Might</label><br><br>
 
                     <label for="base-power">Move's Base Power</label><br>
                     <input type="text" id="base-power" name="base-power"><br><br>
@@ -62,13 +67,27 @@
                     <label for="very-eff-2">Super Effective</label><br>
                     <input type="radio" id="very-eff-4" name="effectiveness" value="2.5">
                     <label for="very-eff-4">Double Super Effective</label><br><br>
+                    
+                    <input type="radio" id="attack-boost-down" name="attack-boost" value="0.66">
+                    <label for="attack-boost-down">-1 Attack</label><br>
+                    <input type="radio" id="attack-boost-neutral" name="attack-boost" value="1.0">
+                    <label for="attack-boost-neutral">No Attack Boost</label><br>
+                    <input type="radio" id="attack-boost-up" name="attack-boost" value="1.5">
+                    <label for="attack-boost-up">+1 Attack</label><br><br>
 
                     <input type="checkbox" id="stab" name="stab" value="stab">
                     <label for="stab">STAB</label><br>
-                    <input type="checkbox" id="attack-boost" name="attack-boost" value="attack-boost">
-                    <label for="attack-boost">+1 Attack</label><br>
                     <input type="checkbox" id="crit" name="crit" value="crit">
-                    <label for="crit">Critical Hit</label><br>
+                    <label for="crit">Critical Hit</label><br><br>
+
+                    <input type="checkbox" id="rain" name="rain" value="rain">
+                    <label for="rain">Fire move in rain</label><br>
+                    <input type="checkbox" id="burn" name="burn" value="burn">
+                    <label for="burn">Burn/Frostbite</label><br>
+                    <input type="checkbox" id="att-fixated" name="att-fixated" value="att-fixated">
+                    <label for="att-fixated">Fixated</label><br>
+                    <input type="checkbox" id="primed" name="primed" value="primed">
+                    <label for="primed">Primed</label><br>
                 </div>
                 <div class="col-lg-5 themed-grid-col">
                     <h3>Defender</h3>
@@ -95,8 +114,20 @@
                     <label for="def-level">Pokémon's Level</label><br>
                     <input type="text" id="def-level" name="def-level"><br><br>
 
-                    <input type="checkbox" id="def-boost" name="def-boost" value="def-boost">
-                    <label for="def-boost">+1 Defense</label><br>
+                    <input type="checkbox" id="def-wild-might" name="def-wild-might" value="def-wild-might">
+                    <label for="def-wild-might">Wild/Terrible Might</label><br><br>
+
+                    <input type="radio" id="def-boost-down" name="def-boost" value="0.66">
+                    <label for="def-boost-down">-1 Defense</label><br>
+                    <input type="radio" id="def-boost-neutral" name="def-boost" value="1.0">
+                    <label for="def-boost-neutral">No Defense Boost</label><br>
+                    <input type="radio" id="def-boost-up" name="def-boost" value="1.5">
+                    <label for="def-boost-up">+1 Defense</label><br><br>
+
+                    <input type="checkbox" id="drowsy" name="drowsy" value="drowsy">
+                    <label for="drowsy">Drowsy</label><br>
+                    <input type="checkbox" id="def-fixated" name="def-fixated" value="def-fixated">
+                    <label for="def-fixated">Fixated</label><br>
                 </div>
             </div>
             <br>
@@ -107,7 +138,8 @@
                     <p class="calc-result" id="ranges">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]</p><br>
                     <p class="calc-result" id="atk-vs-def">(0 Attack vs. 0 Defense @ 0 HP, before multipliers)</p><br><br>
                     <a onclick="doCalc()" class="btn btn-outline-secondary" type="button" id="button-addon2">Calculate!</a><br><br>
-                    <p>The final results are rounded down. It is unclear if they are rounded that way by the game. Keep this in mind when using this calculator.</p>
+                    <p>Big thanks to <a href="https://twitter.com/Sibuna_Switch">Anubis</a> for datamining the <a href="https://www.smogon.com/forums/threads/legends-arceus-battle-mechanics-research.3696826/page-5#post-9292990">actual formulas</a> used by the game, for improved accuracy.</p>
+                    <p>I tried my best to make the calcs as accurate as possible, but there are still possible errors due to floating-point math that may differ from the actual game. Due to this, take these results with a grain of salt.</p>
                 </div>
             </div>
         </div>
