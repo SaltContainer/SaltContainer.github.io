@@ -3512,7 +3512,7 @@
 	{
 		"id": "potted_azalea_bush",
 		"name": "Potted Azalea Bush",
-		"img": "minecraft-rando-tracker/azalea_bush.png",
+		"img": "minecraft-rando-tracker/azalea.png",
 		"contents": []
 	},
 	{
@@ -3596,7 +3596,7 @@
 	{
 		"id": "potted_flowering_azalea_bush",
 		"name": "Potted Flowering Azalea Bush",
-		"img": "minecraft-rando-tracker/flowering_azalea_bush.png",
+		"img": "minecraft-rando-tracker/flowering_azalea.png",
 		"contents": []
 	},
 	{
