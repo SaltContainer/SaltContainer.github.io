@@ -2096,43 +2096,43 @@
 	{
 		"id": "infested_chiseled_stone_bricks",
 		"name": "Infested Chiseled Stone Bricks",
-		"img": "minecraft-rando-tracker/infested_chiseled_stone_bricks.png",
+		"img": "minecraft-rando-tracker/chiseled_stone_bricks.png",
 		"contents": []
 	},
 	{
 		"id": "infested_cobblestone",
 		"name": "Infested Cobblestone",
-		"img": "minecraft-rando-tracker/infested_cobblestone.png",
+		"img": "minecraft-rando-tracker/cobblestone.png",
 		"contents": []
 	},
 	{
 		"id": "infested_cracked_stone_bricks",
 		"name": "Infested Cracked Stone Bricks",
-		"img": "minecraft-rando-tracker/infested_cracked_stone_bricks.png",
+		"img": "minecraft-rando-tracker/cracked_stone_bricks.png",
 		"contents": []
 	},
 	{
 		"id": "infested_deepslate",
 		"name": "Infested Deepslate",
-		"img": "minecraft-rando-tracker/infested_deepslate.png",
+		"img": "minecraft-rando-tracker/deepslate.png",
 		"contents": []
 	},
 	{
 		"id": "infested_mossy_stone_bricks",
 		"name": "Infested Mossy Stone Bricks",
-		"img": "minecraft-rando-tracker/infested_mossy_stone_bricks.png",
+		"img": "minecraft-rando-tracker/mossy_stone_bricks.png",
 		"contents": []
 	},
 	{
 		"id": "infested_stone",
 		"name": "Infested Stone",
-		"img": "minecraft-rando-tracker/infested_stone.png",
+		"img": "minecraft-rando-tracker/stone.png",
 		"contents": []
 	},
 	{
 		"id": "infested_stone_bricks",
 		"name": "Infested Stone Bricks",
-		"img": "minecraft-rando-tracker/infested_stone_bricks.png",
+		"img": "minecraft-rando-tracker/stone_bricks.png",
 		"contents": []
 	},
 	{
@@ -2312,7 +2312,7 @@
 	{
 		"id": "lava_cauldron",
 		"name": "Lava Cauldron",
-		"img": "minecraft-rando-tracker/lava_cauldron.png",
+		"img": "minecraft-rando-tracker/cauldron.png",
 		"contents": []
 	},
 	{
@@ -2852,7 +2852,7 @@
 	{
 		"id": "moss_carpet",
 		"name": "Moss Carpet",
-		"img": "minecraft-rando-tracker/moss_carpet.png",
+		"img": "minecraft-rando-tracker/moss_block.png",
 		"contents": []
 	},
 	{
@@ -3230,7 +3230,7 @@
 	{
 		"id": "petrified_oak_slab",
 		"name": "Petrified Oak Slab",
-		"img": "minecraft-rando-tracker/petrified_oak_slab.png",
+		"img": "minecraft-rando-tracker/oak_slab.png",
 		"contents": []
 	},
 	{
@@ -3500,193 +3500,193 @@
 	{
 		"id": "potted_acacia_sapling",
 		"name": "Potted Acacia Sapling",
-		"img": "minecraft-rando-tracker/potted_acacia_sapling.png",
+		"img": "minecraft-rando-tracker/acacia_sapling.png",
 		"contents": []
 	},
 	{
 		"id": "potted_allium",
 		"name": "Potted Allium",
-		"img": "minecraft-rando-tracker/potted_allium.png",
+		"img": "minecraft-rando-tracker/allium.png",
 		"contents": []
 	},
 	{
 		"id": "potted_azalea_bush",
 		"name": "Potted Azalea Bush",
-		"img": "minecraft-rando-tracker/potted_azalea_bush.png",
+		"img": "minecraft-rando-tracker/azalea_bush.png",
 		"contents": []
 	},
 	{
 		"id": "potted_azure_bluet",
 		"name": "Potted Azure Bluet",
-		"img": "minecraft-rando-tracker/potted_azure_bluet.png",
+		"img": "minecraft-rando-tracker/azure_bluet.png",
 		"contents": []
 	},
 	{
 		"id": "potted_bamboo",
 		"name": "Potted Bamboo",
-		"img": "minecraft-rando-tracker/potted_bamboo.png",
+		"img": "minecraft-rando-tracker/bamboo.png",
 		"contents": []
 	},
 	{
 		"id": "potted_birch_sapling",
 		"name": "Potted Birch Sapling",
-		"img": "minecraft-rando-tracker/potted_birch_sapling.png",
+		"img": "minecraft-rando-tracker/birch_sapling.png",
 		"contents": []
 	},
 	{
 		"id": "potted_blue_orchid",
 		"name": "Potted Blue Orchid",
-		"img": "minecraft-rando-tracker/potted_blue_orchid.png",
+		"img": "minecraft-rando-tracker/blue_orchid.png",
 		"contents": []
 	},
 	{
 		"id": "potted_brown_mushroom",
 		"name": "Potted Brown Mushroom",
-		"img": "minecraft-rando-tracker/potted_brown_mushroom.png",
+		"img": "minecraft-rando-tracker/brown_mushroom.png",
 		"contents": []
 	},
 	{
 		"id": "potted_cactus",
 		"name": "Potted Cactus",
-		"img": "minecraft-rando-tracker/potted_cactus.png",
+		"img": "minecraft-rando-tracker/cactus.png",
 		"contents": []
 	},
 	{
 		"id": "potted_cornflower",
 		"name": "Potted Cornflower",
-		"img": "minecraft-rando-tracker/potted_cornflower.png",
+		"img": "minecraft-rando-tracker/cornflower.png",
 		"contents": []
 	},
 	{
 		"id": "potted_crimson_fungus",
 		"name": "Potted Crimson Fungus",
-		"img": "minecraft-rando-tracker/potted_crimson_fungus.png",
+		"img": "minecraft-rando-tracker/crimson_fungus.png",
 		"contents": []
 	},
 	{
 		"id": "potted_crimson_roots",
 		"name": "Potted Crimson Roots",
-		"img": "minecraft-rando-tracker/potted_crimson_roots.png",
+		"img": "minecraft-rando-tracker/crimson_roots.png",
 		"contents": []
 	},
 	{
 		"id": "potted_dandelion",
 		"name": "Potted Dandelion",
-		"img": "minecraft-rando-tracker/potted_dandelion.png",
+		"img": "minecraft-rando-tracker/dandelion.png",
 		"contents": []
 	},
 	{
 		"id": "potted_dark_oak_sapling",
 		"name": "Potted Dark Oak Sapling",
-		"img": "minecraft-rando-tracker/potted_dark_oak_sapling.png",
+		"img": "minecraft-rando-tracker/dark_oak_sapling.png",
 		"contents": []
 	},
 	{
 		"id": "potted_dead_bush",
 		"name": "Potted Dead Bush",
-		"img": "minecraft-rando-tracker/potted_dead_bush.png",
+		"img": "minecraft-rando-tracker/dead_bush.png",
 		"contents": []
 	},
 	{
 		"id": "potted_fern",
 		"name": "Potted Fern",
-		"img": "minecraft-rando-tracker/potted_fern.png",
+		"img": "minecraft-rando-tracker/fern.png",
 		"contents": []
 	},
 	{
 		"id": "potted_flowering_azalea_bush",
 		"name": "Potted Flowering Azalea Bush",
-		"img": "minecraft-rando-tracker/potted_flowering_azalea_bush.png",
+		"img": "minecraft-rando-tracker/flowering_azalea_bush.png",
 		"contents": []
 	},
 	{
 		"id": "potted_jungle_sapling",
 		"name": "Potted Jungle Sapling",
-		"img": "minecraft-rando-tracker/potted_jungle_sapling.png",
+		"img": "minecraft-rando-tracker/jungle_sapling.png",
 		"contents": []
 	},
 	{
 		"id": "potted_lily_of_the_valley",
 		"name": "Potted Lily Of The Valley",
-		"img": "minecraft-rando-tracker/potted_lily_of_the_valley.png",
+		"img": "minecraft-rando-tracker/lily_of_the_valley.png",
 		"contents": []
 	},
 	{
 		"id": "potted_mangrove_propagule",
 		"name": "Potted Mangrove Propagule",
-		"img": "minecraft-rando-tracker/potted_mangrove_propagule.png",
+		"img": "minecraft-rando-tracker/mangrove_propagule.png",
 		"contents": []
 	},
 	{
 		"id": "potted_oak_sapling",
 		"name": "Potted Oak Sapling",
-		"img": "minecraft-rando-tracker/potted_oak_sapling.png",
+		"img": "minecraft-rando-tracker/oak_sapling.png",
 		"contents": []
 	},
 	{
 		"id": "potted_orange_tulip",
 		"name": "Potted Orange Tulip",
-		"img": "minecraft-rando-tracker/potted_orange_tulip.png",
+		"img": "minecraft-rando-tracker/orange_tulip.png",
 		"contents": []
 	},
 	{
 		"id": "potted_oxeye_daisy",
 		"name": "Potted Oxeye Daisy",
-		"img": "minecraft-rando-tracker/potted_oxeye_daisy.png",
+		"img": "minecraft-rando-tracker/oxeye_daisy.png",
 		"contents": []
 	},
 	{
 		"id": "potted_pink_tulip",
 		"name": "Potted Pink Tulip",
-		"img": "minecraft-rando-tracker/potted_pink_tulip.png",
+		"img": "minecraft-rando-tracker/pink_tulip.png",
 		"contents": []
 	},
 	{
 		"id": "potted_poppy",
 		"name": "Potted Poppy",
-		"img": "minecraft-rando-tracker/potted_poppy.png",
+		"img": "minecraft-rando-tracker/poppy.png",
 		"contents": []
 	},
 	{
 		"id": "potted_red_mushroom",
 		"name": "Potted Red Mushroom",
-		"img": "minecraft-rando-tracker/potted_red_mushroom.png",
+		"img": "minecraft-rando-tracker/red_mushroom.png",
 		"contents": []
 	},
 	{
 		"id": "potted_red_tulip",
 		"name": "Potted Red Tulip",
-		"img": "minecraft-rando-tracker/potted_red_tulip.png",
+		"img": "minecraft-rando-tracker/red_tulip.png",
 		"contents": []
 	},
 	{
 		"id": "potted_spruce_sapling",
 		"name": "Potted Spruce Sapling",
-		"img": "minecraft-rando-tracker/potted_spruce_sapling.png",
+		"img": "minecraft-rando-tracker/spruce_sapling.png",
 		"contents": []
 	},
 	{
 		"id": "potted_warped_fungus",
 		"name": "Potted Warped Fungus",
-		"img": "minecraft-rando-tracker/potted_warped_fungus.png",
+		"img": "minecraft-rando-tracker/warped_fungus.png",
 		"contents": []
 	},
 	{
 		"id": "potted_warped_roots",
 		"name": "Potted Warped Roots",
-		"img": "minecraft-rando-tracker/potted_warped_roots.png",
+		"img": "minecraft-rando-tracker/warped_roots.png",
 		"contents": []
 	},
 	{
 		"id": "potted_white_tulip",
 		"name": "Potted White Tulip",
-		"img": "minecraft-rando-tracker/potted_white_tulip.png",
+		"img": "minecraft-rando-tracker/white_tulip.png",
 		"contents": []
 	},
 	{
 		"id": "potted_wither_rose",
 		"name": "Potted Wither Rose",
-		"img": "minecraft-rando-tracker/potted_wither_rose.png",
+		"img": "minecraft-rando-tracker/wither_rose.png",
 		"contents": []
 	},
 	{
@@ -3698,7 +3698,7 @@
 	{
 		"id": "powder_snow_cauldron",
 		"name": "Powder Snow Cauldron",
-		"img": "minecraft-rando-tracker/powder_snow_cauldron.png",
+		"img": "minecraft-rando-tracker/cauldron.png",
 		"contents": []
 	},
 	{
@@ -4724,7 +4724,7 @@
 	{
 		"id": "tripwire",
 		"name": "Tripwire",
-		"img": "minecraft-rando-tracker/tripwire.png",
+		"img": "minecraft-rando-tracker/string.png",
 		"contents": []
 	},
 	{
@@ -4886,103 +4886,103 @@
 	{
 		"id": "water_cauldron",
 		"name": "Water Cauldron",
-		"img": "minecraft-rando-tracker/water_cauldron.png",
+		"img": "minecraft-rando-tracker/cauldron.png",
 		"contents": []
 	},
 	{
 		"id": "waxed_copper_block",
 		"name": "Waxed Copper Block",
-		"img": "minecraft-rando-tracker/waxed_copper_block.png",
+		"img": "minecraft-rando-tracker/copper_block.png",
 		"contents": []
 	},
 	{
 		"id": "waxed_cut_copper",
 		"name": "Waxed Cut Copper",
-		"img": "minecraft-rando-tracker/waxed_cut_copper.png",
+		"img": "minecraft-rando-tracker/cut_copper.png",
 		"contents": []
 	},
 	{
 		"id": "waxed_cut_copper_slab",
 		"name": "Waxed Cut Copper Slab",
-		"img": "minecraft-rando-tracker/waxed_cut_copper_slab.png",
+		"img": "minecraft-rando-tracker/cut_copper_slab.png",
 		"contents": []
 	},
 	{
 		"id": "waxed_cut_copper_stairs",
 		"name": "Waxed Cut Copper Stairs",
-		"img": "minecraft-rando-tracker/waxed_cut_copper_stairs.png",
+		"img": "minecraft-rando-tracker/cut_copper_stairs.png",
 		"contents": []
 	},
 	{
 		"id": "waxed_exposed_copper",
 		"name": "Waxed Exposed Copper",
-		"img": "minecraft-rando-tracker/waxed_exposed_copper.png",
+		"img": "minecraft-rando-tracker/exposed_copper.png",
 		"contents": []
 	},
 	{
 		"id": "waxed_exposed_cut_copper",
 		"name": "Waxed Exposed Cut Copper",
-		"img": "minecraft-rando-tracker/waxed_exposed_cut_copper.png",
+		"img": "minecraft-rando-tracker/exposed_cut_copper.png",
 		"contents": []
 	},
 	{
 		"id": "waxed_exposed_cut_copper_slab",
 		"name": "Waxed Exposed Cut Copper Slab",
-		"img": "minecraft-rando-tracker/waxed_exposed_cut_copper_slab.png",
+		"img": "minecraft-rando-tracker/exposed_cut_copper_slab.png",
 		"contents": []
 	},
 	{
 		"id": "waxed_exposed_cut_copper_stairs",
 		"name": "Waxed Exposed Cut Copper Stairs",
-		"img": "minecraft-rando-tracker/waxed_exposed_cut_copper_stairs.png",
+		"img": "minecraft-rando-tracker/exposed_cut_copper_stairs.png",
 		"contents": []
 	},
 	{
 		"id": "waxed_oxidized_copper",
 		"name": "Waxed Oxidized Copper",
-		"img": "minecraft-rando-tracker/waxed_oxidized_copper.png",
+		"img": "minecraft-rando-tracker/oxidized_copper.png",
 		"contents": []
 	},
 	{
 		"id": "waxed_oxidized_cut_copper",
 		"name": "Waxed Oxidized Cut Copper",
-		"img": "minecraft-rando-tracker/waxed_oxidized_cut_copper.png",
+		"img": "minecraft-rando-tracker/oxidized_cut_copper.png",
 		"contents": []
 	},
 	{
 		"id": "waxed_oxidized_cut_copper_slab",
 		"name": "Waxed Oxidized Cut Copper Slab",
-		"img": "minecraft-rando-tracker/waxed_oxidized_cut_copper_slab.png",
+		"img": "minecraft-rando-tracker/oxidized_cut_copper_slab.png",
 		"contents": []
 	},
 	{
 		"id": "waxed_oxidized_cut_copper_stairs",
 		"name": "Waxed Oxidized Cut Copper Stairs",
-		"img": "minecraft-rando-tracker/waxed_oxidized_cut_copper_stairs.png",
+		"img": "minecraft-rando-tracker/oxidized_cut_copper_stairs.png",
 		"contents": []
 	},
 	{
 		"id": "waxed_weathered_copper",
 		"name": "Waxed Weathered Copper",
-		"img": "minecraft-rando-tracker/waxed_weathered_copper.png",
+		"img": "minecraft-rando-tracker/weathered_copper.png",
 		"contents": []
 	},
 	{
 		"id": "waxed_weathered_cut_copper",
 		"name": "Waxed Weathered Cut Copper",
-		"img": "minecraft-rando-tracker/waxed_weathered_cut_copper.png",
+		"img": "minecraft-rando-tracker/weathered_cut_copper.png",
 		"contents": []
 	},
 	{
 		"id": "waxed_weathered_cut_copper_slab",
 		"name": "Waxed Weathered Cut Copper Slab",
-		"img": "minecraft-rando-tracker/waxed_weathered_cut_copper_slab.png",
+		"img": "minecraft-rando-tracker/weathered_cut_copper_slab.png",
 		"contents": []
 	},
 	{
 		"id": "waxed_weathered_cut_copper_stairs",
 		"name": "Waxed Weathered Cut Copper Stairs",
-		"img": "minecraft-rando-tracker/waxed_weathered_cut_copper_stairs.png",
+		"img": "minecraft-rando-tracker/weathered_cut_copper_stairs.png",
 		"contents": []
 	},
 	{
@@ -5216,259 +5216,259 @@
     {
 		"id": "abandoned_mineshaft",
 		"name": "Abandoned Mineshaft",
-		"img": "minecraft-rando-tracker/abandoned_mineshaft.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "ancient_city",
 		"name": "Ancient City",
-		"img": "minecraft-rando-tracker/ancient_city.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "ancient_city_ice_box",
 		"name": "Ancient City Ice Box",
-		"img": "minecraft-rando-tracker/ancient_city_ice_box.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "bastion_bridge",
 		"name": "Bastion Bridge",
-		"img": "minecraft-rando-tracker/bastion_bridge.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "bastion_hoglin_stable",
 		"name": "Bastion Hoglin Stable",
-		"img": "minecraft-rando-tracker/bastion_hoglin_stable.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "bastion_other",
 		"name": "Bastion Other",
-		"img": "minecraft-rando-tracker/bastion_other.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "bastion_treasure",
 		"name": "Bastion Treasure",
-		"img": "minecraft-rando-tracker/bastion_treasure.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "buried_treasure",
 		"name": "Buried Treasure",
-		"img": "minecraft-rando-tracker/buried_treasure.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "desert_pyramid",
 		"name": "Desert Pyramid",
-		"img": "minecraft-rando-tracker/desert_pyramid.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "end_city_treasure",
 		"name": "End City Treasure",
-		"img": "minecraft-rando-tracker/end_city_treasure.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "igloo_chest",
 		"name": "Igloo Chest",
-		"img": "minecraft-rando-tracker/igloo_chest.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "jungle_temple",
 		"name": "Jungle Temple",
-		"img": "minecraft-rando-tracker/jungle_temple.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "jungle_temple_dispenser",
 		"name": "Jungle Temple Dispenser",
-		"img": "minecraft-rando-tracker/jungle_temple_dispenser.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "nether_bridge",
 		"name": "Nether Bridge",
-		"img": "minecraft-rando-tracker/nether_bridge.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "pillager_outpost",
 		"name": "Pillager Outpost",
-		"img": "minecraft-rando-tracker/pillager_outpost.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "ruined_portal",
 		"name": "Ruined Portal",
-		"img": "minecraft-rando-tracker/ruined_portal.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "shipwreck_map",
 		"name": "Shipwreck Map",
-		"img": "minecraft-rando-tracker/shipwreck_map.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "shipwreck_supply",
 		"name": "Shipwreck Supply",
-		"img": "minecraft-rando-tracker/shipwreck_supply.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "shipwreck_treasure",
 		"name": "Shipwreck Treasure",
-		"img": "minecraft-rando-tracker/shipwreck_treasure.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "simple_dungeon",
 		"name": "Simple Dungeon",
-		"img": "minecraft-rando-tracker/simple_dungeon.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "spawn_bonus_chest",
 		"name": "Spawn Bonus Chest",
-		"img": "minecraft-rando-tracker/spawn_bonus_chest.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "stronghold_corridor",
 		"name": "Stronghold Corridor",
-		"img": "minecraft-rando-tracker/stronghold_corridor.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "stronghold_crossing",
 		"name": "Stronghold Crossing",
-		"img": "minecraft-rando-tracker/stronghold_crossing.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "stronghold_library",
 		"name": "Stronghold Library",
-		"img": "minecraft-rando-tracker/stronghold_library.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "underwater_ruin_big",
 		"name": "Underwater Ruin Big",
-		"img": "minecraft-rando-tracker/underwater_ruin_big.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "underwater_ruin_small",
 		"name": "Underwater Ruin Small",
-		"img": "minecraft-rando-tracker/underwater_ruin_small.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "village_armorer",
 		"name": "Village Armorer",
-		"img": "minecraft-rando-tracker/village_armorer.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "village_butcher",
 		"name": "Village Butcher",
-		"img": "minecraft-rando-tracker/village_butcher.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "village_cartographer",
 		"name": "Village Cartographer",
-		"img": "minecraft-rando-tracker/village_cartographer.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "village_desert_house",
 		"name": "Village Desert House",
-		"img": "minecraft-rando-tracker/village_desert_house.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "village_fisher",
 		"name": "Village Fisher",
-		"img": "minecraft-rando-tracker/village_fisher.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "village_fletcher",
 		"name": "Village Fletcher",
-		"img": "minecraft-rando-tracker/village_fletcher.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "village_mason",
 		"name": "Village Mason",
-		"img": "minecraft-rando-tracker/village_mason.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "village_plains_house",
 		"name": "Village Plains House",
-		"img": "minecraft-rando-tracker/village_plains_house.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "village_savanna_house",
 		"name": "Village Savanna House",
-		"img": "minecraft-rando-tracker/village_savanna_house.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "village_shepherd",
 		"name": "Village Shepherd",
-		"img": "minecraft-rando-tracker/village_shepherd.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "village_snowy_house",
 		"name": "Village Snowy House",
-		"img": "minecraft-rando-tracker/village_snowy_house.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "village_taiga_house",
 		"name": "Village Taiga House",
-		"img": "minecraft-rando-tracker/village_taiga_house.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "village_tannery",
 		"name": "Village Tannery",
-		"img": "minecraft-rando-tracker/village_tannery.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "village_temple",
 		"name": "Village Temple",
-		"img": "minecraft-rando-tracker/village_temple.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "village_toolsmith",
 		"name": "Village Toolsmith",
-		"img": "minecraft-rando-tracker/village_toolsmith.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "village_weaponsmith",
 		"name": "Village Weaponsmith",
-		"img": "minecraft-rando-tracker/village_weaponsmith.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
 	{
 		"id": "woodland_mansion",
 		"name": "Woodland Mansion",
-		"img": "minecraft-rando-tracker/woodland_mansion.png",
+		"img": "minecraft-rando-tracker/chest.png",
 		"contents": []
 	},
     {
@@ -5486,73 +5486,73 @@
 	{
 		"id": "axolotl",
 		"name": "Axolotl",
-		"img": "minecraft-rando-tracker/axolotl.png",
+		"img": "minecraft-rando-tracker/axolotl_bucket.png",
 		"contents": []
 	},
 	{
 		"id": "bat",
 		"name": "Bat",
-		"img": "minecraft-rando-tracker/bat.png",
+		"img": "minecraft-rando-tracker/stone.png",
 		"contents": []
 	},
 	{
 		"id": "bee",
 		"name": "Bee",
-		"img": "minecraft-rando-tracker/bee.png",
+		"img": "minecraft-rando-tracker/honey_block.png",
 		"contents": []
 	},
 	{
 		"id": "black_sheep",
 		"name": "Black Sheep",
-		"img": "minecraft-rando-tracker/black_sheep.png",
+		"img": "minecraft-rando-tracker/black_wool.png",
 		"contents": []
 	},
 	{
 		"id": "blaze",
 		"name": "Blaze",
-		"img": "minecraft-rando-tracker/blaze.png",
+		"img": "minecraft-rando-tracker/blaze_rod.png",
 		"contents": []
 	},
 	{
 		"id": "blue_sheep",
 		"name": "Blue Sheep",
-		"img": "minecraft-rando-tracker/blue_sheep.png",
+		"img": "minecraft-rando-tracker/blue_wool.png",
 		"contents": []
 	},
 	{
 		"id": "brown_sheep",
 		"name": "Brown Sheep",
-		"img": "minecraft-rando-tracker/brown_sheep.png",
+		"img": "minecraft-rando-tracker/brown_wool.png",
 		"contents": []
 	},
 	{
 		"id": "cat",
 		"name": "Cat",
-		"img": "minecraft-rando-tracker/cat.png",
+		"img": "minecraft-rando-tracker/cod_bucket.png",
 		"contents": []
 	},
 	{
 		"id": "cave_spider",
 		"name": "Cave Spider",
-		"img": "minecraft-rando-tracker/cave_spider.png",
+		"img": "minecraft-rando-tracker/string.png",
 		"contents": []
 	},
 	{
 		"id": "chicken",
 		"name": "Chicken",
-		"img": "minecraft-rando-tracker/chicken.png",
+		"img": "minecraft-rando-tracker/feather.png",
 		"contents": []
 	},
 	{
 		"id": "cod",
 		"name": "Cod",
-		"img": "minecraft-rando-tracker/cod.png",
+		"img": "minecraft-rando-tracker/cod_bucket.png",
 		"contents": []
 	},
 	{
 		"id": "cow",
 		"name": "Cow",
-		"img": "minecraft-rando-tracker/cow.png",
+		"img": "minecraft-rando-tracker/leather.png",
 		"contents": []
 	},
 	{
@@ -5564,595 +5564,595 @@
 	{
 		"id": "cyan_sheep",
 		"name": "Cyan Sheep",
-		"img": "minecraft-rando-tracker/cyan_sheep.png",
+		"img": "minecraft-rando-tracker/cyan_wool.png",
 		"contents": []
 	},
 	{
 		"id": "dolphin",
 		"name": "Dolphin",
-		"img": "minecraft-rando-tracker/dolphin.png",
+		"img": "minecraft-rando-tracker/cod_bucket.png",
 		"contents": []
 	},
 	{
 		"id": "donkey",
 		"name": "Donkey",
-		"img": "minecraft-rando-tracker/donkey.png",
+		"img": "minecraft-rando-tracker/saddle.png",
 		"contents": []
 	},
 	{
 		"id": "drowned",
 		"name": "Drowned",
-		"img": "minecraft-rando-tracker/drowned.png",
+		"img": "minecraft-rando-tracker/rotten_flesh.png",
 		"contents": []
 	},
 	{
 		"id": "elder_guardian",
 		"name": "Elder Guardian",
-		"img": "minecraft-rando-tracker/elder_guardian.png",
+		"img": "minecraft-rando-tracker/prismarine_shard.png",
 		"contents": []
 	},
 	{
 		"id": "enderman",
 		"name": "Enderman",
-		"img": "minecraft-rando-tracker/enderman.png",
+		"img": "minecraft-rando-tracker/ender_pearl.png",
 		"contents": []
 	},
 	{
 		"id": "endermite",
 		"name": "Endermite",
-		"img": "minecraft-rando-tracker/endermite.png",
+		"img": "minecraft-rando-tracker/ender_pearl.png",
 		"contents": []
 	},
 	{
 		"id": "ender_dragon",
 		"name": "Ender Dragon",
-		"img": "minecraft-rando-tracker/ender_dragon.png",
+		"img": "minecraft-rando-tracker/dragon_egg.png",
 		"contents": []
 	},
 	{
 		"id": "evoker",
 		"name": "Evoker",
-		"img": "minecraft-rando-tracker/evoker.png",
+		"img": "minecraft-rando-tracker/emerald.png",
 		"contents": []
 	},
 	{
 		"id": "fox",
 		"name": "Fox",
-		"img": "minecraft-rando-tracker/fox.png",
+		"img": "minecraft-rando-tracker/leather.png",
 		"contents": []
 	},
 	{
 		"id": "frog",
 		"name": "Frog",
-		"img": "minecraft-rando-tracker/frog.png",
+		"img": "minecraft-rando-tracker/tadpole_bucket.png",
 		"contents": []
 	},
 	{
 		"id": "ghast",
 		"name": "Ghast",
-		"img": "minecraft-rando-tracker/ghast.png",
+		"img": "minecraft-rando-tracker/ghast_tear.png",
 		"contents": []
 	},
 	{
 		"id": "giant",
 		"name": "Giant",
-		"img": "minecraft-rando-tracker/giant.png",
+		"img": "minecraft-rando-tracker/rotten_flesh.png",
 		"contents": []
 	},
 	{
 		"id": "glow_squid",
 		"name": "Glow Squid",
-		"img": "minecraft-rando-tracker/glow_squid.png",
+		"img": "minecraft-rando-tracker/ink_sac.png",
 		"contents": []
 	},
 	{
 		"id": "goat",
 		"name": "Goat",
-		"img": "minecraft-rando-tracker/goat.png",
+		"img": "minecraft-rando-tracker/leather.png",
 		"contents": []
 	},
 	{
 		"id": "gray_sheep",
 		"name": "Gray Sheep",
-		"img": "minecraft-rando-tracker/gray_sheep.png",
+		"img": "minecraft-rando-tracker/gray_wool.png",
 		"contents": []
 	},
 	{
 		"id": "green_sheep",
 		"name": "Green Sheep",
-		"img": "minecraft-rando-tracker/green_sheep.png",
+		"img": "minecraft-rando-tracker/green_wool.png",
 		"contents": []
 	},
 	{
 		"id": "guardian",
 		"name": "Guardian",
-		"img": "minecraft-rando-tracker/guardian.png",
+		"img": "minecraft-rando-tracker/prismarine_shard.png",
 		"contents": []
 	},
 	{
 		"id": "hoglin",
 		"name": "Hoglin",
-		"img": "minecraft-rando-tracker/hoglin.png",
+		"img": "minecraft-rando-tracker/porkchop.png",
 		"contents": []
 	},
 	{
 		"id": "horse",
 		"name": "Horse",
-		"img": "minecraft-rando-tracker/horse.png",
+		"img": "minecraft-rando-tracker/saddle.png",
 		"contents": []
 	},
 	{
 		"id": "husk",
 		"name": "Husk",
-		"img": "minecraft-rando-tracker/husk.png",
+		"img": "minecraft-rando-tracker/rotten_flesh.png",
 		"contents": []
 	},
 	{
 		"id": "illusioner",
 		"name": "Illusioner",
-		"img": "minecraft-rando-tracker/illusioner.png",
+		"img": "minecraft-rando-tracker/emerald.png",
 		"contents": []
 	},
 	{
 		"id": "iron_golem",
 		"name": "Iron Golem",
-		"img": "minecraft-rando-tracker/iron_golem.png",
+		"img": "minecraft-rando-tracker/iron_ingot.png",
 		"contents": []
 	},
 	{
 		"id": "light_blue_sheep",
 		"name": "Light Blue Sheep",
-		"img": "minecraft-rando-tracker/light_blue_sheep.png",
+		"img": "minecraft-rando-tracker/light_blue_wool.png",
 		"contents": []
 	},
 	{
 		"id": "light_gray_sheep",
 		"name": "Light Gray Sheep",
-		"img": "minecraft-rando-tracker/light_gray_sheep.png",
+		"img": "minecraft-rando-tracker/light_gray_wool.png",
 		"contents": []
 	},
 	{
 		"id": "lime_sheep",
 		"name": "Lime Sheep",
-		"img": "minecraft-rando-tracker/lime_sheep.png",
+		"img": "minecraft-rando-tracker/lime_wool.png",
 		"contents": []
 	},
 	{
 		"id": "llama",
 		"name": "Llama",
-		"img": "minecraft-rando-tracker/llama.png",
+		"img": "minecraft-rando-tracker/leather.png",
 		"contents": []
 	},
 	{
 		"id": "magenta_sheep",
 		"name": "Magenta Sheep",
-		"img": "minecraft-rando-tracker/magenta_sheep.png",
+		"img": "minecraft-rando-tracker/magenta_wool.png",
 		"contents": []
 	},
 	{
 		"id": "magma_cube",
 		"name": "Magma Cube",
-		"img": "minecraft-rando-tracker/magma_cube.png",
+		"img": "minecraft-rando-tracker/magma_block.png",
 		"contents": []
 	},
 	{
 		"id": "mooshroom",
 		"name": "Mooshroom",
-		"img": "minecraft-rando-tracker/mooshroom.png",
+		"img": "minecraft-rando-tracker/red_mushroom.png",
 		"contents": []
 	},
 	{
 		"id": "mule",
 		"name": "Mule",
-		"img": "minecraft-rando-tracker/mule.png",
+		"img": "minecraft-rando-tracker/saddle.png",
 		"contents": []
 	},
 	{
 		"id": "ocelot",
 		"name": "Ocelot",
-		"img": "minecraft-rando-tracker/ocelot.png",
+		"img": "minecraft-rando-tracker/cod_bucket.png",
 		"contents": []
 	},
 	{
 		"id": "orange_sheep",
 		"name": "Orange Sheep",
-		"img": "minecraft-rando-tracker/orange_sheep.png",
+		"img": "minecraft-rando-tracker/orange_wool.png",
 		"contents": []
 	},
 	{
 		"id": "panda",
 		"name": "Panda",
-		"img": "minecraft-rando-tracker/panda.png",
+		"img": "minecraft-rando-tracker/bamboo.png",
 		"contents": []
 	},
 	{
 		"id": "parrot",
 		"name": "Parrot",
-		"img": "minecraft-rando-tracker/parrot.png",
+		"img": "minecraft-rando-tracker/wheat.png",
 		"contents": []
 	},
 	{
 		"id": "phantom",
 		"name": "Phantom",
-		"img": "minecraft-rando-tracker/phantom.png",
+		"img": "minecraft-rando-tracker/phantom_membrane.png",
 		"contents": []
 	},
 	{
 		"id": "pig",
 		"name": "Pig",
-		"img": "minecraft-rando-tracker/pig.png",
+		"img": "minecraft-rando-tracker/porkchop.png",
 		"contents": []
 	},
 	{
 		"id": "piglin",
 		"name": "Piglin",
-		"img": "minecraft-rando-tracker/piglin.png",
+		"img": "minecraft-rando-tracker/gold_ingot.png",
 		"contents": []
 	},
 	{
 		"id": "piglin_brute",
 		"name": "Piglin Brute",
-		"img": "minecraft-rando-tracker/piglin_brute.png",
+		"img": "minecraft-rando-tracker/gold_ingot.png",
 		"contents": []
 	},
 	{
 		"id": "pillager",
 		"name": "Pillager",
-		"img": "minecraft-rando-tracker/pillager.png",
+		"img": "minecraft-rando-tracker/emerald.png",
 		"contents": []
 	},
 	{
 		"id": "pink_sheep",
 		"name": "Pink Sheep",
-		"img": "minecraft-rando-tracker/pink_sheep.png",
+		"img": "minecraft-rando-tracker/pink_wool.png",
 		"contents": []
 	},
 	{
 		"id": "player",
 		"name": "Player",
-		"img": "minecraft-rando-tracker/player.png",
+		"img": "minecraft-rando-tracker/player_head.png",
 		"contents": []
 	},
 	{
 		"id": "polar_bear",
 		"name": "Polar Bear",
-		"img": "minecraft-rando-tracker/polar_bear.png",
+		"img": "minecraft-rando-tracker/ice.png",
 		"contents": []
 	},
 	{
 		"id": "pufferfish",
 		"name": "Pufferfish",
-		"img": "minecraft-rando-tracker/pufferfish.png",
+		"img": "minecraft-rando-tracker/pufferfish_bucket.png",
 		"contents": []
 	},
 	{
 		"id": "purple_sheep",
 		"name": "Purple Sheep",
-		"img": "minecraft-rando-tracker/purple_sheep.png",
+		"img": "minecraft-rando-tracker/purple_wool.png",
 		"contents": []
 	},
 	{
 		"id": "rabbit",
 		"name": "Rabbit",
-		"img": "minecraft-rando-tracker/rabbit.png",
+		"img": "minecraft-rando-tracker/carrots.png",
 		"contents": []
 	},
 	{
 		"id": "ravager",
 		"name": "Ravager",
-		"img": "minecraft-rando-tracker/ravager.png",
+		"img": "minecraft-rando-tracker/emerald.png",
 		"contents": []
 	},
 	{
 		"id": "red_sheep",
 		"name": "Red Sheep",
-		"img": "minecraft-rando-tracker/red_sheep.png",
+		"img": "minecraft-rando-tracker/red_wool.png",
 		"contents": []
 	},
 	{
 		"id": "salmon",
 		"name": "Salmon",
-		"img": "minecraft-rando-tracker/salmon.png",
+		"img": "minecraft-rando-tracker/salmon_bucket.png",
 		"contents": []
 	},
 	{
 		"id": "sheep",
 		"name": "Sheep",
-		"img": "minecraft-rando-tracker/sheep.png",
+		"img": "minecraft-rando-tracker/white_wool.png",
 		"contents": []
 	},
 	{
 		"id": "shulker",
 		"name": "Shulker",
-		"img": "minecraft-rando-tracker/shulker.png",
+		"img": "minecraft-rando-tracker/shulker_box.png",
 		"contents": []
 	},
 	{
 		"id": "silverfish",
 		"name": "Silverfish",
-		"img": "minecraft-rando-tracker/silverfish.png",
+		"img": "minecraft-rando-tracker/stone.png",
 		"contents": []
 	},
 	{
 		"id": "skeleton",
 		"name": "Skeleton",
-		"img": "minecraft-rando-tracker/skeleton.png",
+		"img": "minecraft-rando-tracker/bone.png",
 		"contents": []
 	},
 	{
 		"id": "skeleton_horse",
 		"name": "Skeleton Horse",
-		"img": "minecraft-rando-tracker/skeleton_horse.png",
+		"img": "minecraft-rando-tracker/bone.png",
 		"contents": []
 	},
 	{
 		"id": "slime",
 		"name": "Slime",
-		"img": "minecraft-rando-tracker/slime.png",
+		"img": "minecraft-rando-tracker/slime_block.png",
 		"contents": []
 	},
 	{
 		"id": "snow_golem",
 		"name": "Snow Golem",
-		"img": "minecraft-rando-tracker/snow_golem.png",
+		"img": "minecraft-rando-tracker/carved_pumpkin.png",
 		"contents": []
 	},
 	{
 		"id": "spider",
 		"name": "Spider",
-		"img": "minecraft-rando-tracker/spider.png",
+		"img": "minecraft-rando-tracker/string.png",
 		"contents": []
 	},
 	{
 		"id": "squid",
 		"name": "Squid",
-		"img": "minecraft-rando-tracker/squid.png",
+		"img": "minecraft-rando-tracker/ink_sac.png",
 		"contents": []
 	},
 	{
 		"id": "stray",
 		"name": "Stray",
-		"img": "minecraft-rando-tracker/stray.png",
+		"img": "minecraft-rando-tracker/bone.png",
 		"contents": []
 	},
 	{
 		"id": "strider",
 		"name": "Strider",
-		"img": "minecraft-rando-tracker/strider.png",
+		"img": "minecraft-rando-tracker/saddle.png",
 		"contents": []
 	},
 	{
 		"id": "tadpole",
 		"name": "Tadpole",
-		"img": "minecraft-rando-tracker/tadpole.png",
+		"img": "minecraft-rando-tracker/tadpole_bucket.png",
 		"contents": []
 	},
 	{
 		"id": "trader_llama",
 		"name": "Trader Llama",
-		"img": "minecraft-rando-tracker/trader_llama.png",
+		"img": "minecraft-rando-tracker/emerald.png",
 		"contents": []
 	},
 	{
 		"id": "tropical_fish",
 		"name": "Tropical Fish",
-		"img": "minecraft-rando-tracker/tropical_fish.png",
+		"img": "minecraft-rando-tracker/tropical_fish_bucket.png",
 		"contents": []
 	},
 	{
 		"id": "turtle",
 		"name": "Turtle",
-		"img": "minecraft-rando-tracker/turtle.png",
+		"img": "minecraft-rando-tracker/turtle_egg.png",
 		"contents": []
 	},
 	{
 		"id": "vex",
 		"name": "Vex",
-		"img": "minecraft-rando-tracker/vex.png",
+		"img": "minecraft-rando-tracker/allay.png",
 		"contents": []
 	},
 	{
 		"id": "villager",
 		"name": "Villager",
-		"img": "minecraft-rando-tracker/villager.png",
+		"img": "minecraft-rando-tracker/emerald.png",
 		"contents": []
 	},
 	{
 		"id": "vindicator",
 		"name": "Vindicator",
-		"img": "minecraft-rando-tracker/vindicator.png",
+		"img": "minecraft-rando-tracker/emerald.png",
 		"contents": []
 	},
 	{
 		"id": "wandering_trader",
 		"name": "Wandering Trader",
-		"img": "minecraft-rando-tracker/wandering_trader.png",
+		"img": "minecraft-rando-tracker/emerald.png",
 		"contents": []
 	},
 	{
 		"id": "warden",
 		"name": "Warden",
-		"img": "minecraft-rando-tracker/warden.png",
+		"img": "minecraft-rando-tracker/sculk_vein.png",
 		"contents": []
 	},
 	{
 		"id": "white_sheep",
 		"name": "White Sheep",
-		"img": "minecraft-rando-tracker/white_sheep.png",
+		"img": "minecraft-rando-tracker/white_wool.png",
 		"contents": []
 	},
 	{
 		"id": "witch",
 		"name": "Witch",
-		"img": "minecraft-rando-tracker/witch.png",
+		"img": "minecraft-rando-tracker/potion.png",
 		"contents": []
 	},
 	{
 		"id": "wither",
 		"name": "Wither",
-		"img": "minecraft-rando-tracker/wither.png",
+		"img": "minecraft-rando-tracker/wither_skeleton_skull.png",
 		"contents": []
 	},
 	{
 		"id": "wither_skeleton",
 		"name": "Wither Skeleton",
-		"img": "minecraft-rando-tracker/wither_skeleton.png",
+		"img": "minecraft-rando-tracker/wither_skeleton_skull.png",
 		"contents": []
 	},
 	{
 		"id": "wolf",
 		"name": "Wolf",
-		"img": "minecraft-rando-tracker/wolf.png",
+		"img": "minecraft-rando-tracker/bone.png",
 		"contents": []
 	},
 	{
 		"id": "yellow_sheep",
 		"name": "Yellow Sheep",
-		"img": "minecraft-rando-tracker/yellow_sheep.png",
+		"img": "minecraft-rando-tracker/yellow_wool.png",
 		"contents": []
 	},
 	{
 		"id": "zoglin",
 		"name": "Zoglin",
-		"img": "minecraft-rando-tracker/zoglin.png",
+		"img": "minecraft-rando-tracker/rotten_flesh.png",
 		"contents": []
 	},
 	{
 		"id": "zombie",
 		"name": "Zombie",
-		"img": "minecraft-rando-tracker/zombie.png",
+		"img": "minecraft-rando-tracker/rotten_flesh.png",
 		"contents": []
 	},
 	{
 		"id": "zombie_horse",
 		"name": "Zombie Horse",
-		"img": "minecraft-rando-tracker/zombie_horse.png",
+		"img": "minecraft-rando-tracker/saddle.png",
 		"contents": []
 	},
 	{
 		"id": "zombie_villager",
 		"name": "Zombie Villager",
-		"img": "minecraft-rando-tracker/zombie_villager.png",
+		"img": "minecraft-rando-tracker/rotten_flesh.png",
 		"contents": []
 	},
 	{
 		"id": "zombified_piglin",
 		"name": "Zombified Piglin",
-		"img": "minecraft-rando-tracker/zombified_piglin.png",
+		"img": "minecraft-rando-tracker/gold_ingot.png",
 		"contents": []
 	},
     {
 		"id": "armorer_gift",
 		"name": "Armorer Gift",
-		"img": "minecraft-rando-tracker/armorer_gift.png",
+		"img": "minecraft-rando-tracker/gift.png",
 		"contents": []
 	},
 	{
 		"id": "butcher_gift",
 		"name": "Butcher Gift",
-		"img": "minecraft-rando-tracker/butcher_gift.png",
+		"img": "minecraft-rando-tracker/gift.png",
 		"contents": []
 	},
 	{
 		"id": "cartographer_gift",
 		"name": "Cartographer Gift",
-		"img": "minecraft-rando-tracker/cartographer_gift.png",
+		"img": "minecraft-rando-tracker/gift.png",
 		"contents": []
 	},
 	{
 		"id": "cat_morning_gift",
 		"name": "Cat Morning Gift",
-		"img": "minecraft-rando-tracker/cat_morning_gift.png",
+		"img": "minecraft-rando-tracker/gift.png",
 		"contents": []
 	},
 	{
 		"id": "cleric_gift",
 		"name": "Cleric Gift",
-		"img": "minecraft-rando-tracker/cleric_gift.png",
+		"img": "minecraft-rando-tracker/gift.png",
 		"contents": []
 	},
 	{
 		"id": "farmer_gift",
 		"name": "Farmer Gift",
-		"img": "minecraft-rando-tracker/farmer_gift.png",
+		"img": "minecraft-rando-tracker/gift.png",
 		"contents": []
 	},
 	{
 		"id": "fish",
 		"name": "Fish (Fishing)",
-		"img": "minecraft-rando-tracker/fish.png",
+		"img": "minecraft-rando-tracker/fishing_rod.png",
 		"contents": []
 	},
 	{
 		"id": "fisherman_gift",
 		"name": "Fisherman Gift",
-		"img": "minecraft-rando-tracker/fisherman_gift.png",
+		"img": "minecraft-rando-tracker/gift.png",
 		"contents": []
 	},
 	{
 		"id": "fishing",
 		"name": "Fishing",
-		"img": "minecraft-rando-tracker/fishing.png",
+		"img": "minecraft-rando-tracker/fishing_rod.png",
 		"contents": []
 	},
 	{
 		"id": "fletcher_gift",
 		"name": "Fletcher Gift",
-		"img": "minecraft-rando-tracker/fletcher_gift.png",
+		"img": "minecraft-rando-tracker/gift.png",
 		"contents": []
 	},
 	{
 		"id": "junk",
 		"name": "Junk (Fishing)",
-		"img": "minecraft-rando-tracker/junk.png",
+		"img": "minecraft-rando-tracker/fishing_rod.png",
 		"contents": []
 	},
 	{
 		"id": "leatherworker_gift",
 		"name": "Leatherworker Gift",
-		"img": "minecraft-rando-tracker/leatherworker_gift.png",
+		"img": "minecraft-rando-tracker/gift.png",
 		"contents": []
 	},
 	{
 		"id": "librarian_gift",
 		"name": "Librarian Gift",
-		"img": "minecraft-rando-tracker/librarian_gift.png",
+		"img": "minecraft-rando-tracker/gift.png",
 		"contents": []
 	},
 	{
 		"id": "mason_gift",
 		"name": "Mason Gift",
-		"img": "minecraft-rando-tracker/mason_gift.png",
+		"img": "minecraft-rando-tracker/gift.png",
 		"contents": []
 	},
 	{
 		"id": "piglin_bartering",
 		"name": "Piglin Bartering",
-		"img": "minecraft-rando-tracker/piglin_bartering.png",
+		"img": "minecraft-rando-tracker/gold_ingot.png",
 		"contents": []
 	},
 	{
 		"id": "shepherd_gift",
 		"name": "Shepherd Gift",
-		"img": "minecraft-rando-tracker/shepherd_gift.png",
+		"img": "minecraft-rando-tracker/gift.png",
 		"contents": []
 	},
 	{
 		"id": "toolsmith_gift",
 		"name": "Toolsmith Gift",
-		"img": "minecraft-rando-tracker/toolsmith_gift.png",
+		"img": "minecraft-rando-tracker/gift.png",
 		"contents": []
 	},
 	{
 		"id": "treasure",
 		"name": "Treasure (Fishing)",
-		"img": "minecraft-rando-tracker/treasure.png",
+		"img": "minecraft-rando-tracker/fishing_rod.png",
 		"contents": []
 	},
 	{
 		"id": "weaponsmith_gift",
 		"name": "Weaponsmith Gift",
-		"img": "minecraft-rando-tracker/weaponsmith_gift.png",
+		"img": "minecraft-rando-tracker/gift.png",
 		"contents": []
 	}
 ]
