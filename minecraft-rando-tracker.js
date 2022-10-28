@@ -9,6 +9,9 @@ class Loot {
     }
 }
 
+var tables = new Map();
+var selectedLoot = null;
+
 fetch('minecraft-rando-tracker/loot_tables.json')
     .then(function (response) {
         return response.json();
@@ -21,7 +24,15 @@ fetch('minecraft-rando-tracker/loot_tables.json')
     });
 
 function selectLoot() {
-    
+    if (selectedLoot == null) {
+        selectedLoot = tables[this.id];
+    } else {
+        var clickedLoot = tables[this.id];
+        selectedLoot.drops = clickedLoot;
+        clickedLoot.from = selectedLoot;
+        updateResult(this, selectedLoot);
+        selectedLoot = null;
+    }
 }
 
 function updateSearch() {
@@ -44,12 +55,22 @@ function updateSearch() {
     }
 }
 
+function updateResult(tr, loot) {
+    var td2 = tr.getElementsByTagName("td")[1];
+    var img = td2.getElementsByClassName("loot-icon")[0];
+    img.src = loot.img;
+    img.alt = loot.name;
+    img.nextSibling.nodeValue = " " + loot.name;
+}
+
 function initialData(data) {
     for (var i = 0; i < data.length; i++) {
         var loot = new Loot(data[i].id, data[i].name, data[i].img, data[i].contents);
-        tables.push(loot);
+        tables.set(data[i].id, loot);
 
         var tr = document.createElement("tr");
+        tr.id = data[i].id;
+        tr.addEventListener("click", selectLoot);
         
         var td1 = document.createElement("td");
         var img1 = document.createElement("img");
@@ -69,7 +90,7 @@ function initialData(data) {
         td2.appendChild(img2);
 
         var text2 = document.createTextNode("-----");
-        td2.appendChild(text1);
+        td2.appendChild(text2);
 
         tr.appendChild(td1);
         tr.appendChild(td2);
