@@ -64,6 +64,7 @@ function updateResult(tr, loot) {
 }
 
 function initialData(data) {
+    var resultsBody = document.getElementById("results-body");
     for (var i = 0; i < data.length; i++) {
         var loot = new Loot(data[i].id, data[i].name, data[i].img, data[i].contents);
         tables.set(data[i].id, loot);
