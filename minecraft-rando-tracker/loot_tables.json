@@ -3501,193 +3501,673 @@
 		"id": "potted_acacia_sapling",
 		"name": "Potted Acacia Sapling",
 		"img": "minecraft-rando-tracker/acacia_sapling.png",
-		"contents": []
+		"contents": [
+			{
+				"id": "acacia_sapling",
+				"name": "Acacia Sapling",
+				"img": "minecraft-rando-tracker/acacia_sapling.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "flower_pot",
+				"name": "Flower Pot",
+				"img": "minecraft-rando-tracker/flower_pot.png",
+				"min": 1,
+				"max": 1
+			}
+		]
 	},
 	{
 		"id": "potted_allium",
 		"name": "Potted Allium",
 		"img": "minecraft-rando-tracker/allium.png",
-		"contents": []
+		"contents": [
+			{
+				"id": "allium",
+				"name": "Allium",
+				"img": "minecraft-rando-tracker/allium.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "flower_pot",
+				"name": "Flower Pot",
+				"img": "minecraft-rando-tracker/flower_pot.png",
+				"min": 1,
+				"max": 1
+			}
+		]
 	},
 	{
 		"id": "potted_azalea_bush",
 		"name": "Potted Azalea Bush",
 		"img": "minecraft-rando-tracker/azalea.png",
-		"contents": []
+		"contents": [
+			{
+				"id": "azalea_bush",
+				"name": "Azalea Bush",
+				"img": "minecraft-rando-tracker/azalea.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "flower_pot",
+				"name": "Flower Pot",
+				"img": "minecraft-rando-tracker/flower_pot.png",
+				"min": 1,
+				"max": 1
+			}
+		]
 	},
 	{
 		"id": "potted_azure_bluet",
 		"name": "Potted Azure Bluet",
 		"img": "minecraft-rando-tracker/azure_bluet.png",
-		"contents": []
+		"contents": [
+			{
+				"id": "azure_bluet",
+				"name": "Azure Bluet",
+				"img": "minecraft-rando-tracker/azure_bluet.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "flower_pot",
+				"name": "Flower Pot",
+				"img": "minecraft-rando-tracker/flower_pot.png",
+				"min": 1,
+				"max": 1
+			}
+		]
 	},
 	{
 		"id": "potted_bamboo",
 		"name": "Potted Bamboo",
 		"img": "minecraft-rando-tracker/bamboo.png",
-		"contents": []
+		"contents": [
+			{
+				"id": "potted_bamboo",
+				"name": "Potted Bamboo",
+				"img": "minecraft-rando-tracker/bamboo.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "flower_pot",
+				"name": "Flower Pot",
+				"img": "minecraft-rando-tracker/flower_pot.png",
+				"min": 1,
+				"max": 1
+			}
+		]
 	},
 	{
 		"id": "potted_birch_sapling",
 		"name": "Potted Birch Sapling",
 		"img": "minecraft-rando-tracker/birch_sapling.png",
-		"contents": []
+		"contents": [
+			{
+				"id": "birch_sapling",
+				"name": "Birch Sapling",
+				"img": "minecraft-rando-tracker/birch_sapling.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "flower_pot",
+				"name": "Flower Pot",
+				"img": "minecraft-rando-tracker/flower_pot.png",
+				"min": 1,
+				"max": 1
+			}
+		]
 	},
 	{
 		"id": "potted_blue_orchid",
 		"name": "Potted Blue Orchid",
 		"img": "minecraft-rando-tracker/blue_orchid.png",
-		"contents": []
+		"contents": [
+			{
+				"id": "blue_orchid",
+				"name": "Blue Orchid",
+				"img": "minecraft-rando-tracker/blue_orchid.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "flower_pot",
+				"name": "Flower Pot",
+				"img": "minecraft-rando-tracker/flower_pot.png",
+				"min": 1,
+				"max": 1
+			}
+		]
 	},
 	{
 		"id": "potted_brown_mushroom",
 		"name": "Potted Brown Mushroom",
 		"img": "minecraft-rando-tracker/brown_mushroom.png",
-		"contents": []
+		"contents": [
+			{
+				"id": "brown_mushroom",
+				"name": "Brown Mushroom",
+				"img": "minecraft-rando-tracker/brown_mushroom.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "flower_pot",
+				"name": "Flower Pot",
+				"img": "minecraft-rando-tracker/flower_pot.png",
+				"min": 1,
+				"max": 1
+			}
+		]
 	},
 	{
 		"id": "potted_cactus",
 		"name": "Potted Cactus",
 		"img": "minecraft-rando-tracker/cactus.png",
-		"contents": []
+		"contents": [
+			{
+				"id": "cactus",
+				"name": "Cactus",
+				"img": "minecraft-rando-tracker/cactus.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "flower_pot",
+				"name": "Flower Pot",
+				"img": "minecraft-rando-tracker/flower_pot.png",
+				"min": 1,
+				"max": 1
+			}
+		]
 	},
 	{
 		"id": "potted_cornflower",
 		"name": "Potted Cornflower",
 		"img": "minecraft-rando-tracker/cornflower.png",
-		"contents": []
+		"contents": [
+			{
+				"id": "cornflower",
+				"name": "Cornflower",
+				"img": "minecraft-rando-tracker/cornflower.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "flower_pot",
+				"name": "Flower Pot",
+				"img": "minecraft-rando-tracker/flower_pot.png",
+				"min": 1,
+				"max": 1
+			}
+		]
 	},
 	{
 		"id": "potted_crimson_fungus",
 		"name": "Potted Crimson Fungus",
 		"img": "minecraft-rando-tracker/crimson_fungus.png",
-		"contents": []
+		"contents": [
+			{
+				"id": "crimson_fungus",
+				"name": "Crimson Fungus",
+				"img": "minecraft-rando-tracker/crimson_fungus.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "flower_pot",
+				"name": "Flower Pot",
+				"img": "minecraft-rando-tracker/flower_pot.png",
+				"min": 1,
+				"max": 1
+			}
+		]
 	},
 	{
 		"id": "potted_crimson_roots",
 		"name": "Potted Crimson Roots",
 		"img": "minecraft-rando-tracker/crimson_roots.png",
-		"contents": []
+		"contents": [
+			{
+				"id": "crimson_roots",
+				"name": "Crimson Roots",
+				"img": "minecraft-rando-tracker/crimson_roots.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "flower_pot",
+				"name": "Flower Pot",
+				"img": "minecraft-rando-tracker/flower_pot.png",
+				"min": 1,
+				"max": 1
+			}
+		]
 	},
 	{
 		"id": "potted_dandelion",
 		"name": "Potted Dandelion",
 		"img": "minecraft-rando-tracker/dandelion.png",
-		"contents": []
+		"contents": [
+			{
+				"id": "dandelion",
+				"name": "Dandelion",
+				"img": "minecraft-rando-tracker/dandelion.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "flower_pot",
+				"name": "Flower Pot",
+				"img": "minecraft-rando-tracker/flower_pot.png",
+				"min": 1,
+				"max": 1
+			}
+		]
 	},
 	{
 		"id": "potted_dark_oak_sapling",
 		"name": "Potted Dark Oak Sapling",
 		"img": "minecraft-rando-tracker/dark_oak_sapling.png",
-		"contents": []
+		"contents": [
+			{
+				"id": "dark_oak_sapling",
+				"name": "Dark Oak Sapling",
+				"img": "minecraft-rando-tracker/dark_oak_sapling.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "flower_pot",
+				"name": "Flower Pot",
+				"img": "minecraft-rando-tracker/flower_pot.png",
+				"min": 1,
+				"max": 1
+			}
+		]
 	},
 	{
 		"id": "potted_dead_bush",
 		"name": "Potted Dead Bush",
 		"img": "minecraft-rando-tracker/dead_bush.png",
-		"contents": []
+		"contents": [
+			{
+				"id": "dead_bush",
+				"name": "Dead Bush",
+				"img": "minecraft-rando-tracker/dead_bush.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "flower_pot",
+				"name": "Flower Pot",
+				"img": "minecraft-rando-tracker/flower_pot.png",
+				"min": 1,
+				"max": 1
+			}
+		]
 	},
 	{
 		"id": "potted_fern",
 		"name": "Potted Fern",
 		"img": "minecraft-rando-tracker/fern.png",
-		"contents": []
+		"contents": [
+			{
+				"id": "fern",
+				"name": "Fern",
+				"img": "minecraft-rando-tracker/fern.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "flower_pot",
+				"name": "Flower Pot",
+				"img": "minecraft-rando-tracker/flower_pot.png",
+				"min": 1,
+				"max": 1
+			}
+		]
 	},
 	{
 		"id": "potted_flowering_azalea_bush",
 		"name": "Potted Flowering Azalea Bush",
 		"img": "minecraft-rando-tracker/flowering_azalea.png",
-		"contents": []
+		"contents": [
+			{
+				"id": "flowering_azalea_bush",
+				"name": "Flowering Azalea Bush",
+				"img": "minecraft-rando-tracker/flowering_azalea.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "flower_pot",
+				"name": "Flower Pot",
+				"img": "minecraft-rando-tracker/flower_pot.png",
+				"min": 1,
+				"max": 1
+			}
+		]
 	},
 	{
 		"id": "potted_jungle_sapling",
 		"name": "Potted Jungle Sapling",
 		"img": "minecraft-rando-tracker/jungle_sapling.png",
-		"contents": []
+		"contents": [
+			{
+				"id": "jungle_sapling",
+				"name": "Jungle Sapling",
+				"img": "minecraft-rando-tracker/jungle_sapling.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "flower_pot",
+				"name": "Flower Pot",
+				"img": "minecraft-rando-tracker/flower_pot.png",
+				"min": 1,
+				"max": 1
+			}
+		]
 	},
 	{
 		"id": "potted_lily_of_the_valley",
 		"name": "Potted Lily Of The Valley",
 		"img": "minecraft-rando-tracker/lily_of_the_valley.png",
-		"contents": []
+		"contents": [
+			{
+				"id": "lily_of_the_valley",
+				"name": "Lily Of The Valley",
+				"img": "minecraft-rando-tracker/lily_of_the_valley.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "flower_pot",
+				"name": "Flower Pot",
+				"img": "minecraft-rando-tracker/flower_pot.png",
+				"min": 1,
+				"max": 1
+			}
+		]
 	},
 	{
 		"id": "potted_mangrove_propagule",
 		"name": "Potted Mangrove Propagule",
 		"img": "minecraft-rando-tracker/mangrove_propagule.png",
-		"contents": []
+		"contents": [
+			{
+				"id": "mangrove_propagule",
+				"name": "Mangrove Propagule",
+				"img": "minecraft-rando-tracker/mangrove_propagule.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "flower_pot",
+				"name": "Flower Pot",
+				"img": "minecraft-rando-tracker/flower_pot.png",
+				"min": 1,
+				"max": 1
+			}
+		]
 	},
 	{
 		"id": "potted_oak_sapling",
 		"name": "Potted Oak Sapling",
 		"img": "minecraft-rando-tracker/oak_sapling.png",
-		"contents": []
+		"contents": [
+			{
+				"id": "oak_sapling",
+				"name": "Oak Sapling",
+				"img": "minecraft-rando-tracker/oak_sapling.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "flower_pot",
+				"name": "Flower Pot",
+				"img": "minecraft-rando-tracker/flower_pot.png",
+				"min": 1,
+				"max": 1
+			}
+		]
 	},
 	{
 		"id": "potted_orange_tulip",
 		"name": "Potted Orange Tulip",
 		"img": "minecraft-rando-tracker/orange_tulip.png",
-		"contents": []
+		"contents": [
+			{
+				"id": "orange_tulip",
+				"name": "Orange Tulip",
+				"img": "minecraft-rando-tracker/orange_tulip.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "flower_pot",
+				"name": "Flower Pot",
+				"img": "minecraft-rando-tracker/flower_pot.png",
+				"min": 1,
+				"max": 1
+			}
+		]
 	},
 	{
 		"id": "potted_oxeye_daisy",
 		"name": "Potted Oxeye Daisy",
 		"img": "minecraft-rando-tracker/oxeye_daisy.png",
-		"contents": []
+		"contents": [
+			{
+				"id": "oxeye_daisy",
+				"name": "Oxeye Daisy",
+				"img": "minecraft-rando-tracker/oxeye_daisy.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "flower_pot",
+				"name": "Flower Pot",
+				"img": "minecraft-rando-tracker/flower_pot.png",
+				"min": 1,
+				"max": 1
+			}
+		]
 	},
 	{
 		"id": "potted_pink_tulip",
 		"name": "Potted Pink Tulip",
 		"img": "minecraft-rando-tracker/pink_tulip.png",
-		"contents": []
+		"contents": [
+			{
+				"id": "pink_tulip",
+				"name": "Pink Tulip",
+				"img": "minecraft-rando-tracker/pink_tulip.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "flower_pot",
+				"name": "Flower Pot",
+				"img": "minecraft-rando-tracker/flower_pot.png",
+				"min": 1,
+				"max": 1
+			}
+		]
 	},
 	{
 		"id": "potted_poppy",
 		"name": "Potted Poppy",
 		"img": "minecraft-rando-tracker/poppy.png",
-		"contents": []
+		"contents": [
+			{
+				"id": "poppy",
+				"name": "Poppy",
+				"img": "minecraft-rando-tracker/poppy.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "flower_pot",
+				"name": "Flower Pot",
+				"img": "minecraft-rando-tracker/flower_pot.png",
+				"min": 1,
+				"max": 1
+			}
+		]
 	},
 	{
 		"id": "potted_red_mushroom",
 		"name": "Potted Red Mushroom",
 		"img": "minecraft-rando-tracker/red_mushroom.png",
-		"contents": []
+		"contents": [
+			{
+				"id": "red_mushroom",
+				"name": "Red Mushroom",
+				"img": "minecraft-rando-tracker/red_mushroom.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "flower_pot",
+				"name": "Flower Pot",
+				"img": "minecraft-rando-tracker/flower_pot.png",
+				"min": 1,
+				"max": 1
+			}
+		]
 	},
 	{
 		"id": "potted_red_tulip",
 		"name": "Potted Red Tulip",
 		"img": "minecraft-rando-tracker/red_tulip.png",
-		"contents": []
+		"contents": [
+			{
+				"id": "red_tulip",
+				"name": "Red Tulip",
+				"img": "minecraft-rando-tracker/red_tulip.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "flower_pot",
+				"name": "Flower Pot",
+				"img": "minecraft-rando-tracker/flower_pot.png",
+				"min": 1,
+				"max": 1
+			}
+		]
 	},
 	{
 		"id": "potted_spruce_sapling",
 		"name": "Potted Spruce Sapling",
 		"img": "minecraft-rando-tracker/spruce_sapling.png",
-		"contents": []
+		"contents": [
+			{
+				"id": "spruce_sapling",
+				"name": "Spruce Sapling",
+				"img": "minecraft-rando-tracker/spruce_sapling.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "flower_pot",
+				"name": "Flower Pot",
+				"img": "minecraft-rando-tracker/flower_pot.png",
+				"min": 1,
+				"max": 1
+			}
+		]
 	},
 	{
 		"id": "potted_warped_fungus",
 		"name": "Potted Warped Fungus",
 		"img": "minecraft-rando-tracker/warped_fungus.png",
-		"contents": []
+		"contents": [
+			{
+				"id": "warped_fungus",
+				"name": "Warped Fungus",
+				"img": "minecraft-rando-tracker/warped_fungus.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "flower_pot",
+				"name": "Flower Pot",
+				"img": "minecraft-rando-tracker/flower_pot.png",
+				"min": 1,
+				"max": 1
+			}
+		]
 	},
 	{
 		"id": "potted_warped_roots",
 		"name": "Potted Warped Roots",
 		"img": "minecraft-rando-tracker/warped_roots.png",
-		"contents": []
+		"contents": [
+			{
+				"id": "warped_roots",
+				"name": "Warped Roots",
+				"img": "minecraft-rando-tracker/warped_roots.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "flower_pot",
+				"name": "Flower Pot",
+				"img": "minecraft-rando-tracker/flower_pot.png",
+				"min": 1,
+				"max": 1
+			}
+		]
 	},
 	{
 		"id": "potted_white_tulip",
 		"name": "Potted White Tulip",
 		"img": "minecraft-rando-tracker/white_tulip.png",
-		"contents": []
+		"contents": [
+			{
+				"id": "white_tulip",
+				"name": "White Tulip",
+				"img": "minecraft-rando-tracker/white_tulip.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "flower_pot",
+				"name": "Flower Pot",
+				"img": "minecraft-rando-tracker/flower_pot.png",
+				"min": 1,
+				"max": 1
+			}
+		]
 	},
 	{
 		"id": "potted_wither_rose",
 		"name": "Potted Wither Rose",
 		"img": "minecraft-rando-tracker/wither_rose.png",
-		"contents": []
+		"contents": [
+			{
+				"id": "wither_rose",
+				"name": "Wither Rose",
+				"img": "minecraft-rando-tracker/wither_rose.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "flower_pot",
+				"name": "Flower Pot",
+				"img": "minecraft-rando-tracker/flower_pot.png",
+				"min": 1,
+				"max": 1
+			}
+		]
 	},
 	{
 		"id": "powder_snow",
@@ -5217,43 +5697,1128 @@
 		"id": "abandoned_mineshaft",
 		"name": "Abandoned Mineshaft",
 		"img": "minecraft-rando-tracker/chest.png",
-		"contents": []
+		"contents": [
+			{
+				"id": "rail",
+				"name": "Rail",
+				"img": "minecraft-rando-tracker/rail.png",
+				"min": 4,
+				"max": 8
+			},
+			{
+				"id": "torch",
+				"name": "Torch",
+				"img": "minecraft-rando-tracker/torch.png",
+				"min": 1,
+				"max": 16
+			},
+			{
+				"id": "name_tag",
+				"name": "Name Tag",
+				"img": "minecraft-rando-tracker/name_tag.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "glow_berries",
+				"name": "Glow Berries",
+				"img": "minecraft-rando-tracker/glow_berries.png",
+				"min": 3,
+				"max": 6
+			},
+			{
+				"id": "bread",
+				"name": "Bread",
+				"img": "minecraft-rando-tracker/bread.png",
+				"min": 1,
+				"max": 3
+			},
+			{
+				"id": "golden_apple",
+				"name": "Golden Apple",
+				"img": "minecraft-rando-tracker/golden_apple.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "coal",
+				"name": "Coal",
+				"img": "minecraft-rando-tracker/coal.png",
+				"min": 3,
+				"max": 8
+			},
+			{
+				"id": "beetroot_seeds",
+				"name": "Beetroot Seeds",
+				"img": "minecraft-rando-tracker/beetroot_seeds.png",
+				"min": 2,
+				"max": 4
+			},
+			{
+				"id": "melon_seeds",
+				"name": "Melon Seeds",
+				"img": "minecraft-rando-tracker/melon_seeds.png",
+				"min": 2,
+				"max": 4
+			},
+			{
+				"id": "pumpkin_seeds",
+				"name": "Pumpkin Seeds",
+				"img": "minecraft-rando-tracker/pumpkin_seeds.png",
+				"min": 2,
+				"max": 4
+			},
+			{
+				"id": "iron_ingot",
+				"name": "Iron Ingot",
+				"img": "minecraft-rando-tracker/iron_ingot.png",
+				"min": 1,
+				"max": 5
+			},
+			{
+				"id": "activator_rail",
+				"name": "Activator Rail",
+				"img": "minecraft-rando-tracker/activator_rail.png",
+				"min": 1,
+				"max": 4
+			},
+			{
+				"id": "detector_rail",
+				"name": "Detector Rail",
+				"img": "minecraft-rando-tracker/detector_rail.png",
+				"min": 1,
+				"max": 4
+			},
+			{
+				"id": "powered_rail",
+				"name": "Powered Rail",
+				"img": "minecraft-rando-tracker/powered_rail.png",
+				"min": 1,
+				"max": 4
+			},
+			{
+				"id": "lapis",
+				"name": "Lapis Lazuli",
+				"img": "minecraft-rando-tracker/lapis.png",
+				"min": 4,
+				"max": 9
+			},
+			{
+				"id": "redstone",
+				"name": "Redstone Dust",
+				"img": "minecraft-rando-tracker/redstone.png",
+				"min": 4,
+				"max": 9
+			},
+			{
+				"id": "gold_ingot",
+				"name": "Gold Ingot",
+				"img": "minecraft-rando-tracker/gold_ingot.png",
+				"min": 1,
+				"max": 3
+			},
+			{
+				"id": "enchanted_book",
+				"name": "Enchanted Book",
+				"img": "minecraft-rando-tracker/enchanted_book.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "diamond",
+				"name": "Diamond",
+				"img": "minecraft-rando-tracker/diamond.png",
+				"min": 1,
+				"max": 2
+			},
+			{
+				"id": "iron_pickaxe",
+				"name": "Iron Pickaxe",
+				"img": "minecraft-rando-tracker/iron_pickaxe.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "enchanted_golden_apple",
+				"name": "Enchanted Golden Apple",
+				"img": "minecraft-rando-tracker/golden_apple.png",
+				"min": 1,
+				"max": 1
+			}
+		]
 	},
 	{
 		"id": "ancient_city",
 		"name": "Ancient City",
 		"img": "minecraft-rando-tracker/chest.png",
-		"contents": []
+		"contents": [
+			{
+				"id": "coal",
+				"name": "Coal",
+				"img": "minecraft-rando-tracker/coal.png",
+				"min": 6,
+				"max": 15
+			},
+			{
+				"id": "bone",
+				"name": "Bone",
+				"img": "minecraft-rando-tracker/bone.png",
+				"min": 1,
+				"max": 15
+			},
+			{
+				"id": "soul_torch",
+				"name": "Soul Torch",
+				"img": "minecraft-rando-tracker/soul_torch.png",
+				"min": 1,
+				"max": 15
+			},
+			{
+				"id": "book",
+				"name": "Book",
+				"img": "minecraft-rando-tracker/book.png",
+				"min": 3,
+				"max": 10
+			},
+			{
+				"id": "regeneration_potion",
+				"name": "Regeneration Potion",
+				"img": "minecraft-rando-tracker/potion.png",
+				"min": 1,
+				"max": 3
+			},
+			{
+				"id": "enchanted_book",
+				"name": "Enchanted Book",
+				"img": "minecraft-rando-tracker/enchanted_book.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "disc_fragment_5",
+				"name": "Disc Fragment (5)",
+				"img": "minecraft-rando-tracker/disc_fragment_5.png",
+				"min": 1,
+				"max": 3
+			},
+			{
+				"id": "echo_shard",
+				"name": "Echo Shard",
+				"img": "minecraft-rando-tracker/echo_shard.png",
+				"min": 1,
+				"max": 3
+			},
+			{
+				"id": "amethyst_shard",
+				"name": "Coal",
+				"img": "minecraft-rando-tracker/amethyst_shard.png",
+				"min": 1,
+				"max": 15
+			},
+			{
+				"id": "glow_berries",
+				"name": "Glow Berries",
+				"img": "minecraft-rando-tracker/glow_berries.png",
+				"min": 1,
+				"max": 15
+			},
+			{
+				"id": "sculk",
+				"name": "Sculk",
+				"img": "minecraft-rando-tracker/sculk.png",
+				"min": 4,
+				"max": 10
+			},
+			{
+				"id": "candle",
+				"name": "Candle",
+				"img": "minecraft-rando-tracker/candle.png",
+				"min": 1,
+				"max": 4
+			},
+			{
+				"id": "bottle_o_enchanting",
+				"name": "Bottle o' Enchanting",
+				"img": "minecraft-rando-tracker/bottle_o_enchanting.png",
+				"min": 1,
+				"max": 3
+			},
+			{
+				"id": "sculk_sensor",
+				"name": "Sculk Sensor",
+				"img": "minecraft-rando-tracker/sculk_sensor.png",
+				"min": 1,
+				"max": 3
+			},
+			{
+				"id": "enchanted_book",
+				"name": "Enchanted Book",
+				"img": "minecraft-rando-tracker/enchanted_book.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "iron_leggings",
+				"name": "Iron Leggings (Enchanted)",
+				"img": "minecraft-rando-tracker/iron_leggings.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "sculk_catalyst",
+				"name": "Sculk Catalyst",
+				"img": "minecraft-rando-tracker/sculk_catalyst.png",
+				"min": 1,
+				"max": 2
+			},
+			{
+				"id": "compass",
+				"name": "Compass",
+				"img": "minecraft-rando-tracker/compass.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "music_disc_13",
+				"name": "Music Disc (13)",
+				"img": "minecraft-rando-tracker/music_disc_13.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "music_disc_cat",
+				"name": "Music Disc (cat)",
+				"img": "minecraft-rando-tracker/music_disc_cat.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "lead",
+				"name": "Lead",
+				"img": "minecraft-rando-tracker/lead.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "name_tag",
+				"name": "Name Tag",
+				"img": "minecraft-rando-tracker/name_tag.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "saddle",
+				"name": "Saddle",
+				"img": "minecraft-rando-tracker/saddle.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "diamond_hoe",
+				"name": "Diamond Hoe (Enchanted)",
+				"img": "minecraft-rando-tracker/diamond_hoe.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "diamond_horse_armor",
+				"name": "Diamond Horse Armor",
+				"img": "minecraft-rando-tracker/diamond_horse_armor.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "diamond_leggings",
+				"name": "Diamond Leggings (Enchanted)",
+				"img": "minecraft-rando-tracker/diamond_leggings.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "enchanted_golden_apple",
+				"name": "Enchanted Golden Apple",
+				"img": "minecraft-rando-tracker/golden_apple.png",
+				"min": 1,
+				"max": 2
+			},
+			{
+				"id": "music_disc_otherside",
+				"name": "Music Disc (otherside)",
+				"img": "minecraft-rando-tracker/music_disc_otherside.png",
+				"min": 1,
+				"max": 1
+			}
+		]
 	},
 	{
 		"id": "ancient_city_ice_box",
 		"name": "Ancient City Ice Box",
 		"img": "minecraft-rando-tracker/chest.png",
-		"contents": []
+		"contents": [
+			{
+				"id": "snowball",
+				"name": "Snowball",
+				"img": "minecraft-rando-tracker/snowball.png",
+				"min": 2,
+				"max": 6
+			},
+			{
+				"id": "packed_ice",
+				"name": "Packed Ice",
+				"img": "minecraft-rando-tracker/packed_ice.png",
+				"min": 2,
+				"max": 6
+			},
+			{
+				"id": "baked_potato",
+				"name": "Baked Potato",
+				"img": "minecraft-rando-tracker/baked_potato.png",
+				"min": 1,
+				"max": 10
+			},
+			{
+				"id": "golden_carrot",
+				"name": "Golden Carrot",
+				"img": "minecraft-rando-tracker/golden_carrot.png",
+				"min": 1,
+				"max": 10
+			},
+			{
+				"id": "suspicious_stew",
+				"name": "Suspicious Stew",
+				"img": "minecraft-rando-tracker/suspicious_stew.png",
+				"min": 2,
+				"max": 6
+			}
+		]
 	},
 	{
 		"id": "bastion_bridge",
 		"name": "Bastion Bridge",
 		"img": "minecraft-rando-tracker/chest.png",
-		"contents": []
+		"contents": [
+			{
+				"id": "lodestone",
+				"name": "Lodestone",
+				"img": "minecraft-rando-tracker/lodestone.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "arrow",
+				"name": "Arrow",
+				"img": "minecraft-rando-tracker/arrow.png",
+				"min": 5,
+				"max": 17
+			},
+			{
+				"id": "iron_nugget",
+				"name": "Iron Nugget",
+				"img": "minecraft-rando-tracker/iron_nugget.png",
+				"min": 2,
+				"max": 6
+			},
+			{
+				"id": "gold_nugget",
+				"name": "Gold Nugget",
+				"img": "minecraft-rando-tracker/gold_nugget.png",
+				"min": 2,
+				"max": 6
+			},
+			{
+				"id": "string",
+				"name": "String",
+				"img": "minecraft-rando-tracker/string.png",
+				"min": 1,
+				"max": 6
+			},
+			{
+				"id": "leather",
+				"name": "Leather",
+				"img": "minecraft-rando-tracker/leather.png",
+				"min": 1,
+				"max": 3
+			},
+			{
+				"id": "spectral_arrow",
+				"name": "Spectral Arrow",
+				"img": "minecraft-rando-tracker/spectral_arrow.png",
+				"min": 10,
+				"max": 28
+			},
+			{
+				"id": "gilded_blackstone",
+				"name": "Gilded Blackstone",
+				"img": "minecraft-rando-tracker/gilded_blackstone.png",
+				"min": 8,
+				"max": 12
+			},
+			{
+				"id": "iron_ingot",
+				"name": "Iron Ingot",
+				"img": "minecraft-rando-tracker/iron_ingot.png",
+				"min": 4,
+				"max": 9
+			},
+			{
+				"id": "gold_ingot",
+				"name": "Gold Ingot",
+				"img": "minecraft-rando-tracker/gold_ingot.png",
+				"min": 4,
+				"max": 9
+			},
+			{
+				"id": "crying_obsidian",
+				"name": "Crying Obsidian",
+				"img": "minecraft-rando-tracker/crying_obsidian.png",
+				"min": 3,
+				"max": 8
+			},
+			{
+				"id": "crossbow",
+				"name": "Crossbow (Enchanted)",
+				"img": "minecraft-rando-tracker/crossbow.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "gold_block",
+				"name": "Gold Block",
+				"img": "minecraft-rando-tracker/gold_block.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "gold_sword",
+				"name": "Golden Sword (Enchanted)",
+				"img": "minecraft-rando-tracker/gold_sword.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "gold_axe",
+				"name": "Golden Axe (Enchanted)",
+				"img": "minecraft-rando-tracker/gold_axe.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "gold_helmet",
+				"name": "Golden Helmet (Enchanted)",
+				"img": "minecraft-rando-tracker/gold_helmet.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "gold_chestplate",
+				"name": "Golden Chestplate (Enchanted)",
+				"img": "minecraft-rando-tracker/gold_chestplate.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "gold_leggings",
+				"name": "Golden Leggings (Enchanted)",
+				"img": "minecraft-rando-tracker/gold_leggings.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "gold_boots",
+				"name": "Golden Boots (Enchanted)",
+				"img": "minecraft-rando-tracker/gold_boots.png",
+				"min": 1,
+				"max": 1
+			}
+		]
 	},
 	{
 		"id": "bastion_hoglin_stable",
 		"name": "Bastion Hoglin Stable",
 		"img": "minecraft-rando-tracker/chest.png",
-		"contents": []
+		"contents": [
+			{
+				"id": "arrow",
+				"name": "Arrow",
+				"img": "minecraft-rando-tracker/arrow.png",
+				"min": 5,
+				"max": 17
+			},
+			{
+				"id": "string",
+				"name": "String",
+				"img": "minecraft-rando-tracker/string.png",
+				"min": 3,
+				"max": 8
+			},
+			{
+				"id": "gold_nugget",
+				"name": "Gold Nugget",
+				"img": "minecraft-rando-tracker/gold_nugget.png",
+				"min": 2,
+				"max": 8
+			},
+			{
+				"id": "crimson_fungus",
+				"name": "Crimson Fungus",
+				"img": "minecraft-rando-tracker/crimson_fungus.png",
+				"min": 2,
+				"max": 7
+			},
+			{
+				"id": "crimson_nylium",
+				"name": "Crimson Nylium",
+				"img": "minecraft-rando-tracker/crimson_nylium.png",
+				"min": 2,
+				"max": 7
+			},
+			{
+				"id": "crimson_roots",
+				"name": "Crimson Roots",
+				"img": "minecraft-rando-tracker/crimson_roots.png",
+				"min": 2,
+				"max": 7
+			},
+			{
+				"id": "glowstone",
+				"name": "Glowstone",
+				"img": "minecraft-rando-tracker/glowstone.png",
+				"min": 3,
+				"max": 6
+			},
+			{
+				"id": "soul_sand",
+				"name": "Soul Sand",
+				"img": "minecraft-rando-tracker/soul_sand.png",
+				"min": 2,
+				"max": 7
+			},
+			{
+				"id": "cooked_porkchop",
+				"name": "Cooked Porkchop",
+				"img": "minecraft-rando-tracker/cooked_porkchop.png",
+				"min": 2,
+				"max": 5
+			},
+			{
+				"id": "gilded_blackstone",
+				"name": "Gilded Blackstone",
+				"img": "minecraft-rando-tracker/gilded_blackstone.png",
+				"min": 2,
+				"max": 5
+			},
+			{
+				"id": "raw_porkchop",
+				"name": "Raw Porkchop",
+				"img": "minecraft-rando-tracker/raw_porkchop.png",
+				"min": 2,
+				"max": 5
+			},
+			{
+				"id": "crying_obsidian",
+				"name": "Crying Obsidian",
+				"img": "minecraft-rando-tracker/crying_obsidian.png",
+				"min": 1,
+				"max": 5
+			},
+			{
+				"id": "leather",
+				"name": "Leather",
+				"img": "minecraft-rando-tracker/leather.png",
+				"min": 1,
+				"max": 3
+			},
+			{
+				"id": "enchanted_golden_apple",
+				"name": "Enchanted Golden Apple",
+				"img": "minecraft-rando-tracker/enchanted_golden_apple.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "gold_block",
+				"name": "Gold Block",
+				"img": "minecraft-rando-tracker/gold_block.png",
+				"min": 2,
+				"max": 4
+			},
+			{
+				"id": "diamond_shovel",
+				"name": "Diamond Shovel (Enchanted)",
+				"img": "minecraft-rando-tracker/diamond_shovel.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "saddle",
+				"name": "Saddle",
+				"img": "minecraft-rando-tracker/saddle.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "diamond_pickaxe",
+				"name": "Diamond Pickaxe (Enchanted)",
+				"img": "minecraft-rando-tracker/diamond_pickaxe.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "golden_carrot",
+				"name": "Golden Carrot",
+				"img": "minecraft-rando-tracker/golden_carrot.png",
+				"min": 8,
+				"max": 17
+			},
+			{
+				"id": "golden_apple",
+				"name": "Golden Apple",
+				"img": "minecraft-rando-tracker/golden_apple.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "netherite_scrap",
+				"name": "Netherite Scrap",
+				"img": "minecraft-rando-tracker/netherite_scrap.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "ancient_debris",
+				"name": "Ancient Debris",
+				"img": "minecraft-rando-tracker/ancient_debris.png",
+				"min": 2,
+				"max": 2
+			}
+		]
 	},
 	{
 		"id": "bastion_other",
 		"name": "Bastion Other",
 		"img": "minecraft-rando-tracker/chest.png",
-		"contents": []
+		"contents": [
+			{
+				"id": "arrow",
+				"name": "Arrow",
+				"img": "minecraft-rando-tracker/arrow.png",
+				"min": 5,
+				"max": 17
+			},
+			{
+				"id": "magma_cream",
+				"name": "Magma Cream",
+				"img": "minecraft-rando-tracker/magma_cream.png",
+				"min": 2,
+				"max": 6
+			},
+			{
+				"id": "gilded_blackstone",
+				"name": "Gilded Blackstone",
+				"img": "minecraft-rando-tracker/gilded_blackstone.png",
+				"min": 1,
+				"max": 5
+			},
+			{
+				"id": "chain",
+				"name": "Chain",
+				"img": "minecraft-rando-tracker/chain.png",
+				"min": 2,
+				"max": 10
+			},
+			{
+				"id": "obsidian",
+				"name": "Obsidian",
+				"img": "minecraft-rando-tracker/obsidian.png",
+				"min": 4,
+				"max": 6
+			},
+			{
+				"id": "string",
+				"name": "String",
+				"img": "minecraft-rando-tracker/string.png",
+				"min": 4,
+				"max": 6
+			},
+			{
+				"id": "iron_nugget",
+				"name": "Iron Nugget",
+				"img": "minecraft-rando-tracker/iron_nugget.png",
+				"min": 2,
+				"max": 8
+			},
+			{
+				"id": "gold_nugget",
+				"name": "Gold Nugget",
+				"img": "minecraft-rando-tracker/gold_nugget.png",
+				"min": 2,
+				"max": 8
+			},
+			{
+				"id": "bone_block",
+				"name": "Bone Block",
+				"img": "minecraft-rando-tracker/bone_block.png",
+				"min": 3,
+				"max": 6
+			},
+			{
+				"id": "cooked_porkchop",
+				"name": "Cooked Porkchop",
+				"img": "minecraft-rando-tracker/cooked_porkchop.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "iron_ingot",
+				"name": "Iron Ingot",
+				"img": "minecraft-rando-tracker/iron_ingot.png",
+				"min": 1,
+				"max": 6
+			},
+			{
+				"id": "gold_ingot",
+				"name": "Gold Ingot",
+				"img": "minecraft-rando-tracker/gold_ingot.png",
+				"min": 1,
+				"max": 6
+			},
+			{
+				"id": "crying_obsidian",
+				"name": "Crying Obsidian",
+				"img": "minecraft-rando-tracker/crying_obsidian.png",
+				"min": 1,
+				"max": 5
+			},
+			{
+				"id": "iron_block",
+				"name": "Iron Block",
+				"img": "minecraft-rando-tracker/iron_block.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "iron_sword",
+				"name": "Iron Sword (Enchanted)",
+				"img": "minecraft-rando-tracker/iron_sword.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "gold_block",
+				"name": "Gold Block",
+				"img": "minecraft-rando-tracker/gold_block.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "golden_carrot",
+				"name": "Golden Carrot",
+				"img": "minecraft-rando-tracker/golden_carrot.png",
+				"min": 6,
+				"max": 17
+			},
+			{
+				"id": "ancient_debris",
+				"name": "Ancient Debris",
+				"img": "minecraft-rando-tracker/ancient_debris.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "spectral_arrow",
+				"name": "Spectral Arrow",
+				"img": "minecraft-rando-tracker/spectral_arrow.png",
+				"min": 10,
+				"max": 22
+			},
+			{
+				"id": "enchanted_book",
+				"name": "Enchanted Book",
+				"img": "minecraft-rando-tracker/enchanted_book.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "snout_banner_pattern",
+				"name": "Banner Pattern (Snout)",
+				"img": "minecraft-rando-tracker/snout_banner_pattern.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "golden_apple",
+				"name": "Golden Apple",
+				"img": "minecraft-rando-tracker/golden_apple.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "crossbow",
+				"name": "Crossbow",
+				"img": "minecraft-rando-tracker/crossbow.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "gold_sword",
+				"name": "Golden Sword",
+				"img": "minecraft-rando-tracker/gold_sword.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "gold_axe",
+				"name": "Golden Axe (Enchanted)",
+				"img": "minecraft-rando-tracker/gold_axe.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "gold_helmet",
+				"name": "Golden Helmet",
+				"img": "minecraft-rando-tracker/gold_helmet.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "gold_chestplate",
+				"name": "Golden Chestplate",
+				"img": "minecraft-rando-tracker/gold_chestplate.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "gold_leggings",
+				"name": "Golden Leggings",
+				"img": "minecraft-rando-tracker/gold_leggings.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "gold_boots",
+				"name": "Golden Boots",
+				"img": "minecraft-rando-tracker/gold_boots.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "gold_boots",
+				"name": "Golden Boots (Enchanted)",
+				"img": "minecraft-rando-tracker/gold_boots.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "crossbow",
+				"name": "Crossbow (Enchanted)",
+				"img": "minecraft-rando-tracker/crossbow.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "diamond_shovel",
+				"name": "Diamond Shovel",
+				"img": "minecraft-rando-tracker/diamond_shovel.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "diamond_pickaxe",
+				"name": "Diamond Pickaxe (Enchanted)",
+				"img": "minecraft-rando-tracker/diamond_pickaxe.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "music_disc_pigstep",
+				"name": "Music Disc (Pigstep)",
+				"img": "minecraft-rando-tracker/music_disc_pigstep.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "netherite_scrap",
+				"name": "Netherite Scrap",
+				"img": "minecraft-rando-tracker/netherite_scrap.png",
+				"min": 1,
+				"max": 1
+			}
+		]
 	},
 	{
 		"id": "bastion_treasure",
 		"name": "Bastion Treasure",
 		"img": "minecraft-rando-tracker/chest.png",
-		"contents": []
+		"contents": [
+			{
+				"id": "netherite_ingot",
+				"name": "Netherite Ingot",
+				"img": "minecraft-rando-tracker/netherite_ingot.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "spectral_arrow",
+				"name": "Spectral Arrow",
+				"img": "minecraft-rando-tracker/spectral_arrow.png",
+				"min": 12,
+				"max": 25
+			},
+			{
+				"id": "nether_quartz",
+				"name": "Nether Quartz",
+				"img": "minecraft-rando-tracker/nether_quartz.png",
+				"min": 8,
+				"max": 23
+			},
+			{
+				"id": "gilded_blackstone",
+				"name": "Gilded Blackstone",
+				"img": "minecraft-rando-tracker/gilded_blackstone.png",
+				"min": 5,
+				"max": 15
+			},
+			{
+				"id": "iron_ingot",
+				"name": "Iron Ingot",
+				"img": "minecraft-rando-tracker/iron_ingot.png",
+				"min": 3,
+				"max": 9
+			},
+			{
+				"id": "gold_ingot",
+				"name": "Gold Ingot",
+				"img": "minecraft-rando-tracker/gold_ingot.png",
+				"min": 3,
+				"max": 9
+			},
+			{
+				"id": "magma_cream",
+				"name": "Magma Cream",
+				"img": "minecraft-rando-tracker/magma_cream.png",
+				"min": 3,
+				"max": 8
+			},
+			{
+				"id": "crying_obsidian",
+				"name": "Crying Obsidian",
+				"img": "minecraft-rando-tracker/crying_obsidian.png",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"id": "iron_block",
+				"name": "Iron Block",
+				"img": "minecraft-rando-tracker/iron_block.png",
+				"min": 2,
+				"max": 5
+			},
+			{
+				"id": "gold_block",
+				"name": "Gold Block",
+				"img": "minecraft-rando-tracker/gold_block.png",
+				"min": 2,
+				"max": 5
+			},
+			{
+				"id": "netherite_scrap",
+				"name": "Netherite Scrap",
+				"img": "minecraft-rando-tracker/netherite_scrap.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "diamond_sword",
+				"name": "Diamond Sword (Enchanted)",
+				"img": "minecraft-rando-tracker/diamond_sword.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "diamond_sword",
+				"name": "Diamond Sword",
+				"img": "minecraft-rando-tracker/diamond_sword.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "diamond_helmet",
+				"name": "Diamond Helmet (Enchanted)",
+				"img": "minecraft-rando-tracker/diamond_helmet.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "diamond_chestplate",
+				"name": "Diamond Chestplate (Enchanted)",
+				"img": "minecraft-rando-tracker/diamond_chestplate.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "diamond_leggings",
+				"name": "Diamond Leggings (Enchanted)",
+				"img": "minecraft-rando-tracker/diamond_leggings.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "diamond_boots",
+				"name": "Diamond Boots (Enchanted)",
+				"img": "minecraft-rando-tracker/diamond_boots.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "diamond",
+				"name": "Diamond",
+				"img": "minecraft-rando-tracker/diamond.png",
+				"min": 2,
+				"max": 6
+			},
+			{
+				"id": "diamond_helmet",
+				"name": "Diamond Helmet",
+				"img": "minecraft-rando-tracker/diamond_helmet.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "diamond_chestplate",
+				"name": "Diamond Chestplate",
+				"img": "minecraft-rando-tracker/diamond_chestplate.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "diamond_leggings",
+				"name": "Diamond Leggings",
+				"img": "minecraft-rando-tracker/diamond_leggings.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "diamond_boots",
+				"name": "Diamond Boots",
+				"img": "minecraft-rando-tracker/diamond_boots.png",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"id": "ancient_debris",
+				"name": "Ancient Debris",
+				"img": "minecraft-rando-tracker/ancient_debris.png",
+				"min": 2,
+				"max": 2
+			},
+			{
+				"id": "enchanted_golden_apple",
+				"name": "Enchanted Golden Apple",
+				"img": "minecraft-rando-tracker/golden_apple.png",
+				"min": 1,
+				"max": 1
+			}
+		]
 	},
 	{
 		"id": "buried_treasure",
