@@ -60,7 +60,7 @@ function updateSearch() {
 }
 
 function matchesCategory(category, lootId) {
-    var loot = tables[lootId];
+    var loot = tables.get(lootId);
     switch (category) {
         case "all":
             return true;
