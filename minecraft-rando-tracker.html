@@ -34,7 +34,7 @@
             <div class="row justify-content-md-center">
                 <div class="col col-lg-8">
                     <input type="text" placeholder="Search for a Loot Table..." id="loot-search" name="loot-search" onkeyup="updateSearch()">
-                    <select name="catgory" id="category">
+                    <select name="catgory" id="category" onchange="updateSearch()">
                         <option value="all">All</option>
                         <option value="blocks">Blocks</option>
                         <option value="chests">Chests</option>

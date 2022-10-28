@@ -1,8 +1,9 @@
 class Loot {
-    constructor(id, name, img, contents) {
+    constructor(id, name, img, category, contents) {
         this.id = id;
         this.name = name;
         this.img = img;
+        this.category = category
         this.contents = contents;
         this.from = null;
         this.drops = null;
@@ -40,18 +41,37 @@ function updateSearch() {
     var filter = input.value.toUpperCase();
     var table = document.getElementById("results-body");
     var items = table.getElementsByTagName("tr");
+    var category = document.getElementById("category");
 
     for (i = 0; i < items.length; i++) {
         var loot = items[i].getElementsByTagName("td")[0];
         var result = items[i].getElementsByTagName("td")[1];
         var lootValue = loot.textContent || loot.innerText;
         var resultValue = result.textContent || result.innerText;
+        var categoryValue = category.value;
+        var lootId = items[i].id;
 
-        if (lootValue.toUpperCase().indexOf(filter) > -1 || resultValue.toUpperCase().indexOf(filter) > -1) {
+        if (matchesCategory(categoryValue, lootId) && (lootValue.toUpperCase().indexOf(filter) > -1 || resultValue.toUpperCase().indexOf(filter) > -1)) {
             items[i].style.display = "";
         } else {
             items[i].style.display = "none";
         }
+    }
+}
+
+function matchesCategory(category, lootId) {
+    var loot = tables[lootId];
+    switch (category) {
+        case "all":
+            return true;
+        case "blocks":
+            return loot.category == "block";
+        case "chests":
+            return loot.category == "chest";
+        case "entities":
+            return loot.category == "entity";
+        case "gameplay":
+            return loot.category == "gameplay";
     }
 }
 
@@ -66,7 +86,7 @@ function updateResult(tr, loot) {
 function initialData(data) {
     var resultsBody = document.getElementById("results-body");
     for (var i = 0; i < data.length; i++) {
-        var loot = new Loot(data[i].id, data[i].name, data[i].img, data[i].contents);
+        var loot = new Loot(data[i].id, data[i].name, data[i].img, data[i].category, data[i].contents);
         tables.set(data[i].id, loot);
 
         var tr = document.createElement("tr");
@@ -90,7 +110,7 @@ function initialData(data) {
         img2.className = "loot-icon";
         td2.appendChild(img2);
 
-        var text2 = document.createTextNode("-----");
+        var text2 = document.createTextNode(" -----");
         td2.appendChild(text2);
 
         tr.appendChild(td1);
