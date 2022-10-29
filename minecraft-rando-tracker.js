@@ -26,7 +26,7 @@ fetch('minecraft-rando-tracker/loot_tables.json')
     });
 
 function initTable() {
-    $('#results').DataTable({
+    var table = $('#results').DataTable({
         "data": tables,
         "columns": [
             { "data": "name", "defaultContent": "-----" },
