@@ -71,36 +71,31 @@ function initTable() {
             });
         },
     });
-}
 
-function selectLoot() {
-    var selectedDiv = document.getElementById("selected-item");
-    var img = selectedDiv.getElementsByTagName("img")[0];
-    if (selectedLoot == null) {
-        selectedLoot = tables.get(this.id);
-        img.src = selectLoot.img;
-        img.alt = " " + selectLoot.name;
-        selectedDiv.style.display = "";
-    } else {
-        var clickedLoot = tables.get(this.id);
-        selectedLoot.drops = clickedLoot;
-        clickedLoot.from = selectedLoot;
-        updateResult(this, selectedLoot);
-        selectedLoot = null;
-        selectedDiv.style.display = "none";
-    }
-}
+    $('#results-body').on('click', 'tr', function () {
+        var data = table.row(this).data();
 
-function updateResult(tr, loot) {
-    var td2 = tr.getElementsByTagName("td")[1];
-    var img = td2.getElementsByClassName("loot-icon")[0];
-    img.src = loot.img;
-    img.alt = loot.name;
-    img.nextSibling.nodeValue = " " + loot.name;
+        if (selectedLoot == null) {
+            selectedLoot = data;
+            selectedRow = this;
+            $("#selected-item > img").prop("src", selectedLoot.img);
+            $("#selected-item > img").prop("alt", selectedLoot.name);
+            $("#selected-item").get(0).lastChild.nodeValue = " " + selectedLoot.name;
+            $("#selected-item").css('display', '');
+        } else {
+            var clickedLoot = data;
+            selectedLoot.drops = clickedLoot;
+            clickedLoot.from = selectedLoot;
+            table.row(selectedRow).data(selectedLoot).draw();
+            table.row(this).data(clickedLoot).draw();
+            selectedLoot = null;
+            selectedRow = null;
+            $("#selected-item").css('display', 'none');
+        }
+    });
 }
 
 function initialData(data) {
-    var resultsBody = document.getElementById("results-body");
     for (var i = 0; i < data.length; i++) {
         var loot = new Loot(data[i].id, data[i].name, data[i].img, data[i].category, data[i].contents);
         tables.push(loot);
