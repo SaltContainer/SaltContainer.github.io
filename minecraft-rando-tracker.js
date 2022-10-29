@@ -20,11 +20,12 @@ fetch('minecraft-rando-tracker/loot_tables.json')
     .then(function (data) {
         initialData(data);
     })
+    .then(initTable)
     .catch(function (err) {
         console.log('Error while loading JSON: ' + err);
     });
 
-$(document).ready( function () {
+function initTable() {
     $('#results').DataTable({
         "data": tables,
         "columns": [
@@ -70,7 +71,7 @@ $(document).ready( function () {
             });
         },
     });
-} );
+}
 
 function selectLoot() {
     var selectedDiv = document.getElementById("selected-item");
