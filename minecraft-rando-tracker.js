@@ -46,8 +46,8 @@ function initTable() {
             },
             {
                 "render": function (data, type, row) {
-                    if (row.from == null) return "<img src=\"minecraft-rando-tracker/chest.png\"> -----";
-                    return "<img src=\"" + row.from.img + "\"> " + data;
+                    if (row.drops == null) return "<img src=\"minecraft-rando-tracker/chest.png\"> -----";
+                    return "<img src=\"" + row.drops.img + "\"> " + data;
                 },
                 "targets": 1
             }
