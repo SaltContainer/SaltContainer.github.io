@@ -13,3 +13,39 @@ div#selected-item {
     top: 10px;
     width: 30%;
 }
+
+.contents-tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.contents-tooltip .contents-tooltip-text {
+    visibility: hidden;
+    width: 420px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    left: 50%;
+    margin-left: -210px;
+  }
+
+.contents-tooltip .contents-tooltip-text::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+  }
+
+.contents-tooltip:hover .contents-tooltip-text {
+    visibility: visible;
+}
