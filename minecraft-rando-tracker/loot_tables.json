@@ -4868,9 +4868,9 @@
 		"category": "block",
 		"contents": [
 			{
-				"id": "mangrove_sapling",
-				"name": "Mangrove Sapling",
-				"img": "minecraft-rando-tracker/mangrove_sapling.png",
+				"id": "mangrove_propagule",
+				"name": "Mangrove Propagule",
+				"img": "minecraft-rando-tracker/mangrove_propagule.png",
 				"min": 1,
 				"max": 1,
 				"percent": 0.05
@@ -9991,7 +9991,7 @@
 			{
 				"id": "raw_porkchop",
 				"name": "Raw Porkchop",
-				"img": "minecraft-rando-tracker/raw_porkchop.png",
+				"img": "minecraft-rando-tracker/porkchop.png",
 				"min": 2,
 				"max": 5,
 				"percent": 0.228
@@ -10015,7 +10015,7 @@
 			{
 				"id": "enchanted_golden_apple",
 				"name": "Enchanted Golden Apple",
-				"img": "minecraft-rando-tracker/enchanted_golden_apple.png",
+				"img": "minecraft-rando-tracker/golden_apple.png",
 				"min": 1,
 				"max": 1,
 				"percent": 0.228
@@ -10255,7 +10255,7 @@
 			{
 				"id": "snout_banner_pattern",
 				"name": "Banner Pattern (Snout)",
-				"img": "minecraft-rando-tracker/snout_banner_pattern.png",
+				"img": "minecraft-rando-tracker/banner_pattern.png",
 				"min": 1,
 				"max": 1,
 				"percent": 0.101
@@ -12167,7 +12167,7 @@
 			{
 				"id": "raw_salmon",
 				"name": "Raw Salmon",
-				"img": "minecraft-rando-tracker/raw_salmon.png",
+				"img": "minecraft-rando-tracker/salmon.png",
 				"min": 1,
 				"max": 2,
 				"percent": 0.615
@@ -12751,7 +12751,7 @@
 			{
 				"id": "raw_beef",
 				"name": "Raw Beef",
-				"img": "minecraft-rando-tracker/raw_beef.png",
+				"img": "minecraft-rando-tracker/beef.png",
 				"min": 1,
 				"max": 3,
 				"percent": 0.486
@@ -12759,7 +12759,7 @@
 			{
 				"id": "raw_mutton",
 				"name": "Raw Mutton",
-				"img": "minecraft-rando-tracker/raw_mutton.png",
+				"img": "minecraft-rando-tracker/mutton.png",
 				"min": 1,
 				"max": 3,
 				"percent": 0.486
@@ -12767,7 +12767,7 @@
 			{
 				"id": "raw_porkchop",
 				"name": "Raw Porkchop",
-				"img": "minecraft-rando-tracker/raw_porkchop.png",
+				"img": "minecraft-rando-tracker/porkchop.png",
 				"min": 1,
 				"max": 3,
 				"percent": 0.486
@@ -12943,7 +12943,7 @@
 			{
 				"id": "raw_cod",
 				"name": "Raw Cod",
-				"img": "minecraft-rando-tracker/raw_cod.png",
+				"img": "minecraft-rando-tracker/cod.png",
 				"min": 1,
 				"max": 3,
 				"percent": 0.43
@@ -12959,7 +12959,7 @@
 			{
 				"id": "raw_salmon",
 				"name": "Raw Salmon",
-				"img": "minecraft-rando-tracker/raw_salmon.png",
+				"img": "minecraft-rando-tracker/salmon.png",
 				"min": 1,
 				"max": 3,
 				"percent": 0.242
@@ -14087,7 +14087,7 @@
 			{
 				"id": "enchanted_golden_apple",
 				"name": "Enchanted Golden Apple",
-				"img": "minecraft-rando-tracker/enchanted_golden_apple.png",
+				"img": "minecraft-rando-tracker/golden_apple.png",
 				"min": 1,
 				"max": 1,
 				"percent": 0.031
@@ -14255,7 +14255,7 @@
 			{
 				"id": "raw_mutton",
 				"name": "Raw Mutton",
-				"img": "minecraft-rando-tracker/raw_mutton.png",
+				"img": "minecraft-rando-tracker/mutton.png",
 				"min": 1,
 				"max": 2,
 				"percent": 1
@@ -14319,7 +14319,7 @@
 			{
 				"id": "raw_chicken",
 				"name": "Raw Chicken",
-				"img": "minecraft-rando-tracker/raw_chicken.png",
+				"img": "minecraft-rando-tracker/chicken.png",
 				"min": 1,
 				"max": 1,
 				"percent": 0.5
@@ -14335,7 +14335,7 @@
 			{
 				"id": "raw_cod",
 				"name": "Raw Cod",
-				"img": "minecraft-rando-tracker/raw_cod.png",
+				"img": "minecraft-rando-tracker/cod.png",
 				"min": 1,
 				"max": 1,
 				"percent": 1
@@ -14367,7 +14367,7 @@
 			{
 				"id": "raw_beef",
 				"name": "Raw Beef",
-				"img": "minecraft-rando-tracker/raw_beef.png",
+				"img": "minecraft-rando-tracker/beef.png",
 				"min": 1,
 				"max": 3,
 				"percent": 1
@@ -14432,7 +14432,7 @@
 			{
 				"id": "raw_cod",
 				"name": "Raw Cod",
-				"img": "minecraft-rando-tracker/raw_cod.png",
+				"img": "minecraft-rando-tracker/cod.png",
 				"min": 1,
 				"max": 1,
 				"percent": 0.5
@@ -14496,7 +14496,7 @@
 			{
 				"id": "raw_cod",
 				"name": "Raw Cod",
-				"img": "minecraft-rando-tracker/raw_cod.png",
+				"img": "minecraft-rando-tracker/cod.png",
 				"min": 1,
 				"max": 1,
 				"percent": 0.5
@@ -14768,7 +14768,7 @@
 			{
 				"id": "raw_cod",
 				"name": "Raw Cod",
-				"img": "minecraft-rando-tracker/raw_cod.png",
+				"img": "minecraft-rando-tracker/cod.png",
 				"min": 1,
 				"max": 1,
 				"percent": 0.4
@@ -14800,7 +14800,7 @@
 			{
 				"id": "raw_porkchop",
 				"name": "Raw Porkchop",
-				"img": "minecraft-rando-tracker/raw_porkchop.png",
+				"img": "minecraft-rando-tracker/porkchop.png",
 				"min": 2,
 				"max": 4,
 				"percent": 1
@@ -15084,7 +15084,7 @@
 			{
 				"id": "raw_beef",
 				"name": "Raw Beef",
-				"img": "minecraft-rando-tracker/raw_beef.png",
+				"img": "minecraft-rando-tracker/beef.png",
 				"min": 1,
 				"max": 3,
 				"percent": 1
@@ -15204,7 +15204,7 @@
 			{
 				"id": "raw_porkchop",
 				"name": "Raw Porkchop",
-				"img": "minecraft-rando-tracker/raw_porkchop.png",
+				"img": "minecraft-rando-tracker/porkchop.png",
 				"min": 1,
 				"max": 3,
 				"percent": 1
@@ -15308,7 +15308,7 @@
 			{
 				"id": "raw_cod",
 				"name": "Raw Cod",
-				"img": "minecraft-rando-tracker/raw_cod.png",
+				"img": "minecraft-rando-tracker/cod.png",
 				"min": 0,
 				"max": 2,
 				"percent": 1
@@ -15316,7 +15316,7 @@
 			{
 				"id": "raw_salmon",
 				"name": "Raw Salmon",
-				"img": "minecraft-rando-tracker/raw_salmon.png",
+				"img": "minecraft-rando-tracker/salmon.png",
 				"min": 0,
 				"max": 2,
 				"percent": 1
@@ -15388,7 +15388,7 @@
 			{
 				"id": "raw_rabbit",
 				"name": "Raw Rabbit",
-				"img": "minecraft-rando-tracker/raw_rabbit.png",
+				"img": "minecraft-rando-tracker/rabbit.png",
 				"min": 1,
 				"max": 1,
 				"percent": 0.5
@@ -15452,7 +15452,7 @@
 			{
 				"id": "raw_salmon",
 				"name": "Raw Salmon",
-				"img": "minecraft-rando-tracker/raw_salmon.png",
+				"img": "minecraft-rando-tracker/salmon.png",
 				"min": 1,
 				"max": 1,
 				"percent": 1
@@ -15476,7 +15476,7 @@
 			{
 				"id": "raw_mutton",
 				"name": "Raw Mutton",
-				"img": "minecraft-rando-tracker/raw_mutton.png",
+				"img": "minecraft-rando-tracker/mutton.png",
 				"min": 1,
 				"max": 2,
 				"percent": 1
@@ -16407,7 +16407,7 @@
 			{
 				"id": "raw_cod",
 				"name": "Raw Cod",
-				"img": "minecraft-rando-tracker/raw_cod.png",
+				"img": "minecraft-rando-tracker/cod.png",
 				"min": 1,
 				"max": 1,
 				"percent": 0.6
@@ -16415,7 +16415,7 @@
 			{
 				"id": "raw_salmon",
 				"name": "Raw Salmon",
-				"img": "minecraft-rando-tracker/raw_salmon.png",
+				"img": "minecraft-rando-tracker/salmon.png",
 				"min": 1,
 				"max": 1,
 				"percent": 0.25
@@ -16447,7 +16447,7 @@
 			{
 				"id": "raw_cod",
 				"name": "Raw Cod",
-				"img": "minecraft-rando-tracker/raw_cod.png",
+				"img": "minecraft-rando-tracker/cod.png",
 				"min": 1,
 				"max": 1,
 				"percent": 0.5
@@ -16455,7 +16455,7 @@
 			{
 				"id": "raw_salmon",
 				"name": "Raw Salmon",
-				"img": "minecraft-rando-tracker/raw_salmon.png",
+				"img": "minecraft-rando-tracker/salmon.png",
 				"min": 1,
 				"max": 1,
 				"percent": 0.5
