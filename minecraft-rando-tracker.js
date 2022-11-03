@@ -36,7 +36,8 @@ function initTable() {
         "columnDefs": [
             {
                 "render": function (data, type, row) {
-                    return renderRow(row);
+                    if (type == "display") return renderRow(row);
+                    else return data;
                 },
                 "targets": 0
             },
@@ -46,7 +47,9 @@ function initTable() {
             },
             {
                 "render": function (data, type, row) {
-                    return renderRow(row.drops);
+                    if (type == "display") return renderRow(row.drops);
+                    else if (row.drops) return row.drops.name;
+                    else return "~";
                 },
                 "targets": 1
             }
