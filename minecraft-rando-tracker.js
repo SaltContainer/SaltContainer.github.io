@@ -53,25 +53,7 @@ function initTable() {
                 },
                 "targets": 1
             }
-        ],
-        initComplete: function () {
-            var column = this.api().column(0);
-            var categoryColumn = this.api().column(2);
-            var select = $('<select></select>')
-                .appendTo($(column.header()))
-                .on('change', function () {
-                    if ($(this).val() == "all") {
-                        categoryColumn.search('', true, false).draw();
-                    } else {
-                        var val = $.fn.dataTable.util.escapeRegex($(this).val());
-                        categoryColumn.search(val ? '^' + val + '$' : '', true, false).draw();
-                    }
-                });
-
-            [["all","All"], ["block", "Blocks"], ["chest", "Chests"], ["entity", "Entities"], ["gameplay", "Gameplay"]].forEach(function (id, index) {
-                select.append('<option value="' + id[0] + '">' + id[1] + '</option>');
-            });
-        },
+        ]
     });
 
     $('#results-body').on('click', 'tr', function () {
@@ -83,16 +65,22 @@ function initTable() {
             $("#selected-item > img").prop("src", selectedLoot.img);
             $("#selected-item > img").prop("alt", selectedLoot.name);
             $("#selected-item").get(0).lastChild.nodeValue = " " + selectedLoot.name;
-            $("#selected-item").css('display', '');
+            $("#selected-item").css('opacity', '1');
         } else {
             var clickedLoot = data;
-            selectedLoot.drops = clickedLoot;
-            clickedLoot.from = selectedLoot;
+            var order = $("#order-checked").prop("checked");
+            if (order) {
+                selectedLoot.drops = clickedLoot;
+                clickedLoot.from = selectedLoot;
+            } else {
+                clickedLoot.drops = selectedLoot;
+                selectedLoot.from = clickedLoot;
+            }
             table.row(selectedRow).data(selectedLoot).draw();
             table.row(this).data(clickedLoot).draw();
             selectedLoot = null;
             selectedRow = null;
-            $("#selected-item").css('display', 'none');
+            $("#selected-item").css('opacity', '0');
         }
     });
 }
@@ -127,4 +115,23 @@ function initialData(data) {
         var loot = new Loot(data[i].id, data[i].name, data[i].img, data[i].category, data[i].contents);
         tables.push(loot);
     }
+}
+
+function addCategoryDropdown(table) {
+    var column = table.api().column(0);
+    var categoryColumn = table.api().column(2);
+    var select = $('<select></select>')
+        .appendTo($(column.header()))
+        .on('change', function () {
+            if ($(table).val() == "all") {
+                categoryColumn.search('', true, false).draw();
+            } else {
+                var val = $.fn.dataTable.util.escapeRegex($(table).val());
+                categoryColumn.search(val ? '^' + val + '$' : '', true, false).draw();
+            }
+        });
+
+    [["all","All"], ["block", "Blocks"], ["chest", "Chests"], ["entity", "Entities"], ["gameplay", "Gameplay"]].forEach(function (id, index) {
+        select.append('<option value="' + id[0] + '">' + id[1] + '</option>');
+    });
 }

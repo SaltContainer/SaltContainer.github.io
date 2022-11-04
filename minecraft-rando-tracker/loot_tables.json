@@ -56,7 +56,7 @@
 				"min": 1,
 				"max": 1,
 				"percent": 1,
-				"condition": "Silk Touch"
+				"condition": "Shears/Silk Touch"
 			}
 		]
 	},
@@ -279,7 +279,7 @@
 				"min": 1,
 				"max": 1,
 				"percent": 1,
-				"condition": "Silk Touch"
+				"condition": "Shears/Silk Touch"
 			}
 		]
 	},
@@ -489,7 +489,7 @@
 				"min": 1,
 				"max": 1,
 				"percent": 1,
-				"condition": "Silk Touch"
+				"condition": "Shears/Silk Touch"
 			}
 		]
 	},
@@ -2137,7 +2137,7 @@
 				"min": 1,
 				"max": 1,
 				"percent": 1,
-				"condition": "Silk Touch"
+				"condition": "Shears/Silk Touch"
 			}
 		]
 	},
@@ -3169,7 +3169,7 @@
 				"min": 1,
 				"max": 1,
 				"percent": 1,
-				"condition": "Silk Touch"
+				"condition": "Shears/Silk Touch"
 			}
 		]
 	},
@@ -4089,7 +4089,7 @@
 				"min": 1,
 				"max": 1,
 				"percent": 1,
-				"condition": "Silk Touch"
+				"condition": "Shears/Silk Touch"
 			}
 		]
 	},
@@ -4890,7 +4890,7 @@
 				"min": 1,
 				"max": 1,
 				"percent": 1,
-				"condition": "Silk Touch"
+				"condition": "Shears/Silk Touch"
 			}
 		]
 	},
@@ -5412,7 +5412,7 @@
 				"min": 1,
 				"max": 1,
 				"percent": 1,
-				"condition": "Silk Touch"
+				"condition": "Shears/Silk Touch"
 			}
 		]
 	},
@@ -8049,7 +8049,7 @@
 				"min": 1,
 				"max": 1,
 				"percent": 1,
-				"condition": "Silk Touch"
+				"condition": "Shears/Silk Touch"
 			}
 		]
 	},
@@ -9534,7 +9534,7 @@
 			},
 			{
 				"id": "amethyst_shard",
-				"name": "Coal",
+				"name": "Amethyst Shard",
 				"img": "minecraft-rando-tracker/amethyst_shard.png",
 				"min": 1,
 				"max": 15,
@@ -10790,7 +10790,7 @@
 			},
 			{
 				"id": "gold_horse_armor",
-				"name": "Gold Horse Armor",
+				"name": "Golden Horse Armor",
 				"img": "minecraft-rando-tracker/gold_horse_armor.png",
 				"min": 1,
 				"max": 1,
@@ -10998,7 +10998,7 @@
 			},
 			{
 				"id": "gold_horse_armor",
-				"name": "Gold Horse Armor",
+				"name": "Golden Horse Armor",
 				"img": "minecraft-rando-tracker/gold_horse_armor.png",
 				"min": 1,
 				"max": 1,
@@ -11174,7 +11174,7 @@
 			},
 			{
 				"id": "gold_horse_armor",
-				"name": "Gold Horse Armor",
+				"name": "Golden Horse Armor",
 				"img": "minecraft-rando-tracker/gold_horse_armor.png",
 				"min": 1,
 				"max": 1,
@@ -11230,7 +11230,7 @@
 			},
 			{
 				"id": "gold_horse_armor",
-				"name": "Gold Horse Armor",
+				"name": "Golden Horse Armor",
 				"img": "minecraft-rando-tracker/gold_horse_armor.png",
 				"min": 1,
 				"max": 1,
@@ -11478,7 +11478,7 @@
 			},
 			{
 				"id": "gold_axe",
-				"name": "Gold Axe (Enchanted)",
+				"name": "Golden Axe (Enchanted)",
 				"img": "minecraft-rando-tracker/gold_axe.png",
 				"min": 1,
 				"max": 1,
@@ -11486,7 +11486,7 @@
 			},
 			{
 				"id": "gold_hoe",
-				"name": "Gold Hoe (Enchanted)",
+				"name": "Golden Hoe (Enchanted)",
 				"img": "minecraft-rando-tracker/gold_hoe.png",
 				"min": 1,
 				"max": 1,
@@ -11494,7 +11494,7 @@
 			},
 			{
 				"id": "gold_pickaxe",
-				"name": "Gold Pickaxe (Enchanted)",
+				"name": "Golden Pickaxe (Enchanted)",
 				"img": "minecraft-rando-tracker/gold_pickaxe.png",
 				"min": 1,
 				"max": 1,
@@ -11502,7 +11502,7 @@
 			},
 			{
 				"id": "gold_shovel",
-				"name": "Gold Shovel (Enchanted)",
+				"name": "Golden Shovel (Enchanted)",
 				"img": "minecraft-rando-tracker/gold_shovel.png",
 				"min": 1,
 				"max": 1,
@@ -11510,7 +11510,7 @@
 			},
 			{
 				"id": "gold_sword",
-				"name": "Gold Sword (Enchanted)",
+				"name": "Golden Sword (Enchanted)",
 				"img": "minecraft-rando-tracker/gold_sword.png",
 				"min": 1,
 				"max": 1,
@@ -11518,7 +11518,7 @@
 			},
 			{
 				"id": "gold_helmet",
-				"name": "Gold Helmet (Enchanted)",
+				"name": "Golden Helmet (Enchanted)",
 				"img": "minecraft-rando-tracker/gold_helmet.png",
 				"min": 1,
 				"max": 1,
@@ -11526,7 +11526,7 @@
 			},
 			{
 				"id": "gold_chestplate",
-				"name": "Gold Chestplate (Enchanted)",
+				"name": "Golden Chestplate (Enchanted)",
 				"img": "minecraft-rando-tracker/gold_chestplate.png",
 				"min": 1,
 				"max": 1,
@@ -11534,7 +11534,7 @@
 			},
 			{
 				"id": "gold_leggings",
-				"name": "Gold Leggings (Enchanted)",
+				"name": "Golden Leggings (Enchanted)",
 				"img": "minecraft-rando-tracker/gold_leggings.png",
 				"min": 1,
 				"max": 1,
@@ -11542,7 +11542,7 @@
 			},
 			{
 				"id": "gold_boots",
-				"name": "Gold Boots (Enchanted)",
+				"name": "Golden Boots (Enchanted)",
 				"img": "minecraft-rando-tracker/gold_boots.png",
 				"min": 1,
 				"max": 1,
@@ -11590,7 +11590,7 @@
 			},
 			{
 				"id": "gold_horse_armor",
-				"name": "Gold Horse Armor",
+				"name": "Golden Horse Armor",
 				"img": "minecraft-rando-tracker/gold_horse_armor.png",
 				"min": 1,
 				"max": 1,
@@ -12070,7 +12070,7 @@
 			},
 			{
 				"id": "gold_horse_armor",
-				"name": "Gold Horse Armor",
+				"name": "Golden Horse Armor",
 				"img": "minecraft-rando-tracker/gold_horse_armor.png",
 				"min": 1,
 				"max": 1,
@@ -12398,7 +12398,7 @@
 			},
 			{
 				"id": "gold_horse_armor",
-				"name": "Gold Horse Armor",
+				"name": "Golden Horse Armor",
 				"img": "minecraft-rando-tracker/gold_horse_armor.png",
 				"min": 1,
 				"max": 1,
@@ -12614,7 +12614,7 @@
 			},
 			{
 				"id": "gold_helmet",
-				"name": "Gold Helmet",
+				"name": "Golden Helmet",
 				"img": "minecraft-rando-tracker/gold_helmet.png",
 				"min": 1,
 				"max": 1,
@@ -12694,7 +12694,7 @@
 			},
 			{
 				"id": "gold_helmet",
-				"name": "Gold Helmet",
+				"name": "Golden Helmet",
 				"img": "minecraft-rando-tracker/gold_helmet.png",
 				"min": 1,
 				"max": 1,
@@ -13878,7 +13878,7 @@
 			},
 			{
 				"id": "gold_horse_armor",
-				"name": "Gold Horse Armor",
+				"name": "Golden Horse Armor",
 				"img": "minecraft-rando-tracker/gold_horse_armor.png",
 				"min": 1,
 				"max": 1,
@@ -17175,7 +17175,7 @@
 			},
 			{
 				"id": "gold_axe",
-				"name": "Gold Axe",
+				"name": "Golden Axe",
 				"img": "minecraft-rando-tracker/gold_axe.png",
 				"min": 1,
 				"max": 1,

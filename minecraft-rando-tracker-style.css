@@ -6,12 +6,8 @@ input#loot-search {
     width: inherit;
 }
 
-div#selected-item {
-    position: absolute;
-    z-index: 2;
-    left: 10px;
-    top: 10px;
-    width: 30%;
+div#selected-border {
+    border: dotted;
 }
 
 .contents-tooltip {
