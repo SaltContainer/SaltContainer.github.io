@@ -26,3 +26,10 @@ p.calc-result {
 .counter-button {
     margin-bottom: 20px;
 }
+
+div.card:hover {
+    z-index: 1;
+    color: #495057;
+    text-decoration: none;
+    background-color: #f8f9fa
+}
