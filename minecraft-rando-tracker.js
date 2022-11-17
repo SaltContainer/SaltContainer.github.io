@@ -37,6 +37,7 @@ function initTable() {
             {
                 "render": function (data, type, row) {
                     if (type == "display") return renderRow(row);
+                    else if (type == "filter") return filterRow(row);
                     else return data;
                 },
                 "targets": 0
@@ -48,6 +49,7 @@ function initTable() {
             {
                 "render": function (data, type, row) {
                     if (type == "display") return renderRow(row.drops);
+                    else if (type == "filter") return filterRow(row.drops);
                     else if (row.drops) return row.drops.name;
                     else return "~";
                 },
@@ -110,28 +112,15 @@ function renderRow(row) {
     else return image + " " + row.name;
 }
 
+function filterRow(row) {
+    if (row == null) return "~";
+    else if (row.contents.length > 0) return [row.name].concat(row.contents.map(c => c.name)).join(",");
+    else return row.name;
+}
+
 function initialData(data) {
     for (var i = 0; i < data.length; i++) {
         var loot = new Loot(data[i].id, data[i].name, data[i].img, data[i].category, data[i].contents);
         tables.push(loot);
     }
-}
-
-function addCategoryDropdown(table) {
-    var column = table.api().column(0);
-    var categoryColumn = table.api().column(2);
-    var select = $('<select></select>')
-        .appendTo($(column.header()))
-        .on('change', function () {
-            if ($(table).val() == "all") {
-                categoryColumn.search('', true, false).draw();
-            } else {
-                var val = $.fn.dataTable.util.escapeRegex($(table).val());
-                categoryColumn.search(val ? '^' + val + '$' : '', true, false).draw();
-            }
-        });
-
-    [["all","All"], ["block", "Blocks"], ["chest", "Chests"], ["entity", "Entities"], ["gameplay", "Gameplay"]].forEach(function (id, index) {
-        select.append('<option value="' + id[0] + '">' + id[1] + '</option>');
-    });
 }
