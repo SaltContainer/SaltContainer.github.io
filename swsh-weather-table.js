@@ -27,7 +27,7 @@ var postChampion = [];
 
 var table;
 
-fetch('minecraft-rando-tracker/weather-data.json')
+fetch('swsh-weather-table/weather-data.json')
     .then(function (response) {
         return response.json();
     })
@@ -40,7 +40,6 @@ fetch('minecraft-rando-tracker/weather-data.json')
     });
 
 radioButtonEvents();
-selectEvents();
 
 function radioButtonEvents() {
     $('input[type=radio][name=progress]').change(function() {
