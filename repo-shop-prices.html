@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Embed Metadata -->
+        <meta property="og:title" content="R.E.P.O. Shop Prices Calculator">
+        <meta property="og:description" content="A basic price calculator for R.E.P.O. shop items.">
+        <meta property="og:image" content="bdsp-key-items/point_card.png">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="bdsp-key-items/point_card.png">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <title>R.E.P.O. Shop Prices Calculator</title>
+    </head>
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="repo-shop-prices.js"></script>
+
+        <h1>R.E.P.O. Shop Prices Calculator</h1>
+
+        <br>
+
+        <div class="col-md-8 themed-grid-col">
+            <div class="row">
+                <div class="col-lg-5 themed-grid-col">
+                    <h3>Current run stats</h3>
+
+                    <label for="levels-beaten">Levels beaten</label><br>
+                    <input type="text" id="levels-beaten" name="levels-beaten"><br><br>
+
+                    <h3>Item to calculate</h3>
+
+                    <input type="radio" id="item-health" name="item">
+                    <label for="item-health">Health Upgrade</label><br>
+                    <input type="radio" id="item-strength" name="item">
+                    <label for="item-strength">Strength Upgrade</label><br>
+                    <input type="radio" id="item-range" name="item">
+                    <label for="item-range">Range Upgrade</label><br>
+                    <input type="radio" id="item-stamina" name="item">
+                    <label for="item-stamina">Stamina Upgrade</label><br>
+                    <input type="radio" id="item-speed" name="item">
+                    <label for="item-speed">Sprint Speed Upgrade</label><br>
+                    <input type="radio" id="item-map" name="item">
+                    <label for="item-map">Map Player Count Upgrade</label><br>
+                    <input type="radio" id="item-jump" name="item">
+                    <label for="item-jump">Extra Jump Upgrade</label><br>
+                    <input type="radio" id="item-tumble" name="item">
+                    <label for="item-tumble">Tumble Launch Upgrade</label><br>
+                    <input type="radio" id="item-hp-small" name="item">
+                    <label for="item-hp-small">Small Health Pack</label><br>
+                    <input type="radio" id="item-hp-medium" name="item">
+                    <label for="item-hp-medium">Medium Health Pack</label><br>
+                    <input type="radio" id="item-hp-large" name="item">
+                    <label for="item-hp-large">Large Health Pack</label><br>
+                    <input type="radio" id="item-crystal" name="item">
+                    <label for="item-crystal">Energy Crystal</label><br><br>
+                </div>
+                <div class="col-lg-5 themed-grid-col">
+                    <h3>Amount purchased</h3>
+
+                    <label for="health">Health Upgrade</label><br>
+                    <input type="text" id="health" name="health"><br>
+
+                    <label for="strength">Strength Upgrade</label><br>
+                    <input type="text" id="strength" name="strength"><br>
+
+                    <label for="range">Range Upgrade</label><br>
+                    <input type="text" id="range" name="range"><br>
+
+                    <label for="stamina">Stamina Upgrade</label><br>
+                    <input type="text" id="stamina" name="stamina"><br>
+
+                    <label for="speed">Sprint Speed Upgrade</label><br>
+                    <input type="text" id="speed" name="speed"><br>
+
+                    <label for="map">Map Player Count Upgrade</label><br>
+                    <input type="text" id="map" name="map"><br>
+
+                    <label for="jump">Extra Jump Upgrade</label><br>
+                    <input type="text" id="jump" name="jump"><br>
+
+                    <label for="tumble">Tumble Launch Upgrade</label><br>
+                    <input type="text" id="tumble" name="tumble"><br>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-lg-10 themed-grid-col">
+                    <p class="calc-result-large" id="calc-result">No result.</p><br>
+                    <p class="calc-result" id="values">[0, 0]</p><br>
+                    <a onclick="doCalc()" class="btn btn-outline-secondary" type="button" id="button-addon2">Calculate!</a><br><br>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
