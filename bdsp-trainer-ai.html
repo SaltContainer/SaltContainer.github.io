@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Embed Metadata -->
+        <meta property="og:title" content="Brilliant Diamond/Shining Pearl Trainer AI">
+        <meta property="og:description" content="A lookup table for the weather of every area for Pokémon Sword/Shield.">
+        <meta property="og:image" content="pla-throwable-tracker/pinapberry.png">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="bdsp-key-items/vs_seeker.png">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="bdsp-trainer-ai.css">
+
+        <title>Pokémon Brilliant Diamond and Shining Pearl Trainer AI</title>
+    </head>
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+        <script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap5.min.js"></script>
+        <script defer src="bdsp-trainer-ai.js"></script>
+
+        <div class="container">
+            <div class="row">
+                <h1>Pokémon Brilliant Diamond and Shining Pearl Trainer AI</h1>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <details id="ai-info-panel">
+			        <summary>Important: Background information</summary>
+                    <br>
+
+                    <h2>Lorem Ipsum</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquet posuere tristique. Vivamus porta, erat eget consequat malesuada, odio nisl fermentum tellus, quis pulvinar neque tellus vulputate felis. Pellentesque mi tellus, aliquam eget leo tempus, ultricies consequat felis. Proin accumsan, mauris eget rutrum vestibulum, lectus dolor pretium diam, ut faucibus ligula metus in odio. Morbi tristique molestie tortor, nec congue sem vehicula ut. Praesent rhoncus sapien massa, scelerisque eleifend orci euismod sit amet. Nullam a imperdiet nibh, vel vehicula felis. Cras feugiat nulla id dictum hendrerit. In hac habitasse platea dictumst. Quisque dui ex, scelerisque vitae egestas in, blandit porta quam.</p>
+                    <p>In eleifend in urna eget varius. Sed scelerisque tellus quis lacus sodales pharetra. Pellentesque pharetra elementum velit non convallis. Mauris porta dolor ac lacus scelerisque mattis. Phasellus efficitur non nulla in euismod. Praesent purus urna, euismod ut risus sit amet, dictum scelerisque neque. Suspendisse elementum elementum tristique. Sed placerat tortor lorem, sed posuere libero malesuada nec. Morbi et semper urna. Integer sit amet vehicula lacus, ut elementum elit. Sed quis condimentum ex.</p>
+                    <p>Aliquam pharetra cursus vehicula. Suspendisse iaculis lectus nisi, a vestibulum nunc scelerisque eget. Aenean massa lacus, luctus vitae velit non, euismod auctor eros.</p>
+                    <h2>Lorem Ipsum</h2>
+                    <p>Praesent non turpis at orci rhoncus cursus. Sed purus enim, sagittis non condimentum eu, egestas sit amet dolor. Donec nec ipsum odio.</p>
+                    <p>Aliquam ante purus, tristique at odio ut, dignissim efficitur nisl. Nullam sagittis fermentum lectus a vestibulum. Maecenas vehicula nulla sed diam efficitur aliquam. Duis sed sapien dolor. Aliquam hendrerit nulla at lacus convallis, et dictum diam egestas. Sed suscipit nisi aliquet volutpat facilisis.</p>
+                    <ul>
+                        <li>Aliquam</li>
+                        <li>Gravida</li>
+                        <li>Tempus</li>
+                        <li>Consectetur</li>
+                        <li>Vulputate</li>
+                        <li>Nunc</li>
+                    </ul>
+                    <h2>Lorem Ipsum</h2>
+                    <p>Phasellus blandit diam ut purus scelerisque sagittis. Integer blandit tellus dapibus massa efficitur consectetur. Donec a ante justo. Sed tincidunt leo ut est bibendum, et efficitur purus vulputate.</p>
+
+                    <div style="text-align:center">
+                        <button id="ai-close-info">Close</button>
+                        <script>
+                            "use strict";
+                            (function() {
+                                const infoPanel = document.getElementById("ai-info-panel");
+                                document.getElementById("ai-close-info").addEventListener("click", function() {
+                                    infoPanel.open = false;
+                                    infoPanel.scrollIntoView();
+                                })
+                            })();
+                        </script>
+                    </div>
+                </details>
+            </div>
+            <br>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 themed-grid-col">
+                    <div class="row g-3">
+                        <label for="ai-move-text-input" id="ai-move-label" style="text-align:center">Select a move to see its relevant AI procedures:</label>
+                        <div class="col">
+                            <input class="form-input-text" type="text" id="ai-move-text-input" aria-description="Typeable move input field" placeholder="Move name..." autocomplete="off" maxlength="16"/>
+                        </div>
+                        <div class="col">
+                            <select class="form-select" id="ai-move-select" data-alphabetized="true" aria-labelledby="ai-move-label" aria-description="Move selection dropdown">
+                                <option>Absorb</option>
+                                <option>Acid</option>
+                                <option>Acid Armor</option>
+                            </select>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-check form-switch center-checkbox">
+                        <input class="form-check-input" type="checkbox" id="basic-ai-checkbox" name="basic-ai" checked="true">
+                        <label class="form-check-label" for="basic-ai-checkbox">Basic AI</label>
+                    </div>
+                    <div class="form-check form-switch center-checkbox">
+                        <input class="form-check-input" type="checkbox" id="strong-ai-checkbox" name="strong-ai" checked="true">
+                        <label class="form-check-label" for="strong-ai-checkbox">Strong AI</label>
+                    </div>
+                    <div class="form-check form-switch center-checkbox">
+                        <input class="form-check-input" type="checkbox" id="expert-ai-checkbox" name="expert-ai" checked="true">
+                        <label class="form-check-label" for="expert-ai-checkbox">Expert AI</label>
+                    </div>
+                    <div class="form-check form-switch center-checkbox">
+                        <input class="form-check-input" type="checkbox" id="double-ai-checkbox" name="double-ai" checked="true">
+                        <label class="form-check-label" for="double-ai-checkbox">Doubles AI</label>
+                    </div>
+                    <div class="form-check form-switch center-checkbox">
+                        <input class="form-check-input" type="checkbox" id="allowance-ai-checkbox" name="allowance-ai" checked="true">
+                        <label class="form-check-label" for="allowance-ai-checkbox">Allowance AI</label>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="row" id="basic-ai-container">
+                <div class="ai-header basic">Basic AI</div>
+                <div id="basic-ai-body" class="ai-body"></div>
+            </div>
+            <br>
+            <div class="row" id="strong-ai-container">
+                <div class="ai-header strong">Strong AI</div>
+                <div id="basic-ai-strong" class="ai-body"></div>
+            </div>
+            <br>
+            <div class="row" id="expert-ai-container">
+                <div class="ai-header expert">Expert AI</div>
+                <div id="expert-ai-body" class="ai-body"></div>
+            </div>
+            <br>
+            <div class="row" id="double-enemy-ai-container">
+                <div class="ai-header double-enemy">Doubles AI (Enemy Target)</div>
+                <div id="double-enemy-ai-body" class="ai-body"></div>
+            </div>
+            <br>
+            <div class="row" id="double-ally-ai-container">
+                <div class="ai-header double-ally">Double AI (Ally Target)</div>
+                <div id="double-ally-ai-body" class="ai-body"></div>
+            </div>
+            <br>
+            <div class="row" id="allowance-ai-container">
+                <div class="ai-header allowance">Allowance AI</div>
+                <div id="allowance-ai-body" class="ai-body"></div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <p>The full code for these AI procedures can be found on the <a href="https://github.com/TeamLumi/opendpr">opendpr</a> repository. Currently, this is on the battle-ai branch. The specific classes you'll want to look at are the subclasses of <a href="https://github.com/TeamLumi/opendpr/blob/battle-ai/Assets/Scripts/Dpr/Battle/Logic/BtlAIBaseScript.cs">BtlAIBaseScript</a>.</p>
+                <p>Greatly inspired by <a href="https://github.com/taxicat1">Mow</a>'s <a href="https://pokemow.com/Gen4/TrainerAI/">website</a> which hosts a gen 4 version of the AI procedures.</p>
+            </div>
+        </div>
+    </body>
+</html>

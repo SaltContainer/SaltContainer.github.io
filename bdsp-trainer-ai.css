@@ -1,0 +1,114 @@
+details {
+	border: 2px solid #b6b6b6;
+	border-radius: 4px;
+	background: #e0e0e0;
+	padding: 1.5ch;
+	margin-block: 1ch;
+}
+
+details summary {
+	font-size: 120%;
+	cursor: pointer;
+}
+
+#basic-ai-container {
+	--border-color:              #3e973b;
+	--header-background-color:   #67fb5b;
+	--header-color:              #12370a;
+	--body-background-color:     #d3ffd8;
+}
+
+#strong-ai-container {
+	--border-color:              #97513b;
+	--header-background-color:   #fb8f5b;
+	--header-color:              #481f0b;
+	--body-background-color:     #ffe5d8;
+}
+
+#expert-ai-container {
+	--border-color:              #3e3b97;
+	--header-background-color:   #9a6dfb;
+	--header-color:              #080735;
+	--body-background-color:     #e8d8ff;
+}
+
+#double-enemy-ai-container {
+	--border-color:              #97663b;
+	--header-background-color:   #fbde6d;
+	--header-color:              #352a07;
+	--body-background-color:     #fff2d8;
+}
+
+#double-ally-ai-container {
+	--border-color:              #3b7597;
+	--header-background-color:   #75d7fd;
+	--header-color:              #072a35;
+	--body-background-color:     #d6f0ff;
+}
+
+#allowance-ai-container {
+	--border-color:              #943b97;
+	--header-background-color:   #fd75eb;
+	--header-color:              #350734;
+	--body-background-color:     #ffd6ff;
+}
+
+#ai-subtitle {
+	text-align: center;
+}
+
+.ai-header,
+.ai-body {
+	border: 2px solid var(--border-color);
+	box-shadow: 0 0 4px 0 #0005;
+}
+
+.ai-header {
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	font-size: 120%;
+	font-weight: bold;
+	padding: 0.6ch 1ch;
+	
+	color: var(--header-color);
+	background-color: var(--header-background-color);
+}
+
+.ai-body {
+	border-top-width: 0;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	gap: 0.5ch;
+	padding: 1ch;
+	
+	color: #000e;
+	background-color: var(--body-background-color);
+}
+
+.ai-spacer {
+	height: 1.6ch;
+}
+
+.ai-list {
+	margin-top: 3ch;
+}
+
+.center-checkbox {
+    align-self: center;
+}
+
+.form-input-text {
+    display: block;
+    width: 100%;
+    padding: .375rem 2.25rem .375rem .75rem;
+    -moz-padding-start: calc(0.75rem - 3px);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-size: 16px 12px;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
